@@ -1,0 +1,97 @@
+C:\Users\090\source\repos\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.exe
+C:\Users\090\source\repos\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.deps.json
+C:\Users\090\source\repos\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.runtimeconfig.json
+C:\Users\090\source\repos\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.dll
+C:\Users\090\source\repos\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.pdb
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt_MarkupCompile.cache
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt_MarkupCompile.lref
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.g.resources
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.AssemblyInfoInputs.cache
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.AssemblyInfo.cs
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.csproj.CoreCompileInputs.cache
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.dll
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\refint\SummerProekt.dll
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.pdb
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.genruntimeconfig.cache
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\ref\SummerProekt.dll
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Window2.g.cs
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Aks.g.cs
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Muzh.g.cs
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Onas.g.cs
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Zhen.g.cs
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Window1.baml
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Window2.baml
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Aks.baml
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Muzh.baml
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Onas.baml
+C:\Users\090\source\repos\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Zhen.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Aks.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Muzh.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Window2.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Zhen.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt_MarkupCompile.cache
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt_MarkupCompile.lref
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.dll
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\refint\SummerProekt.dll
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.pdb
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.exe
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.deps.json
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.runtimeconfig.json
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.dll
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.pdb
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Onas.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Aks.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Muzh.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Onas.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Window1.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Window2.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Zhen.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.g.resources
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.AssemblyInfoInputs.cache
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.AssemblyInfo.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.csproj.CoreCompileInputs.cache
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.genruntimeconfig.cache
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\ref\SummerProekt.dll
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Aks.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Muzh.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Onas.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Window2.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Zhen.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt_MarkupCompile.cache
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt_MarkupCompile.lref
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.dll
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\refint\SummerProekt.dll
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.pdb
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.exe
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.deps.json
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.runtimeconfig.json
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.dll
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\bin\Debug\net6.0-windows\SummerProekt.pdb
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Aks.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Muzh.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Onas.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Window1.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Window2.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Zhen.baml
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.g.resources
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.AssemblyInfoInputs.cache
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.AssemblyInfo.cs
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.csproj.CoreCompileInputs.cache
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\SummerProekt.genruntimeconfig.cache
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\ref\SummerProekt.dll
+C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\project_C.Sharp-main\SummerProekt\SummerProekt\obj\Debug\net6.0-windows\Lich.g.cs

@@ -1,0 +1,34 @@
+﻿<Window x:Class="SummerProekt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SummerProekt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1200">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Margin="0,0,0,5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="464*"/>
+                <RowDefinition Height="265*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition Width="251*"/>
+                <ColumnDefinition Width="949*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Личный кабинет" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" MouseDoubleClick="Lich_Click" Grid.Column="2"/>
+            <Label Content="О нас" HorizontalAlignment="Left" Margin="234,10,0,0" VerticalAlignment="Top"  MouseDoubleClick="Onas_Click" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <Label Content="Мужское" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top"  MouseDoubleClick="Muzh_Click" Grid.ColumnSpan="2"/>
+            <Label Content="Женское" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" MouseDoubleClick="Zhen_Click" Grid.Column="1"/>
+            <Label Content="Аксесуары" HorizontalAlignment="Left" Margin="160,10,0,0" VerticalAlignment="Top"  MouseDoubleClick="Aks_Click" Grid.ColumnSpan="2"/>
+            <Image Source="Assets/Front.jpg" HorizontalAlignment="Left" Height="531" Margin="30,51,0,0" VerticalAlignment="Top" Width="1140" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+            <Image Source="Assets/ShoppingPin.jpg" Grid.Column="2" HorizontalAlignment="Left" Height="40" Margin="843,9,0,0" VerticalAlignment="Top" Width="43"/>
+            <Image Source="Assets/Exit.png" Grid.Column="2" HorizontalAlignment="Left" Height="36" Margin="883,11,0,0" VerticalAlignment="Top" Width="38"/>
+            <Image Source="Assets/Phone.png" Grid.Column="2" HorizontalAlignment="Left" Height="34" Margin="810,12,0,0" VerticalAlignment="Top" Width="33"/>
+            <Image Source="Assets/Magnifier.png" Grid.Column="2" HorizontalAlignment="Left" Height="36" Margin="774,14,0,0" VerticalAlignment="Top" Width="31" RenderTransformOrigin="0.516,0.584"/>
+            <Image Source="Assets/Logo1.png" Grid.Column="2" HorizontalAlignment="Left" Height="65" Margin="475,0,0,0" VerticalAlignment="Top" Width="100"/>
+            <Image Source="Assets/Logo2.png" Grid.Column="2" HorizontalAlignment="Left" Height="73" Margin="863,284,0,0" Grid.Row="1" VerticalAlignment="Top" Width="76"/>
+        </Grid>
+    </ScrollViewer>
+</Window>
