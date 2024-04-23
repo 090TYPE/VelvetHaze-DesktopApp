@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cs6SWEpTabq0eyXXNblRNqbb/IkGcI1U5cxdAqc3y5E+ElYh6SHsJ3AsT0w8KVxJN4sWjBvAhh4SVnhwhlwk5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aremi\\source\\repos\\WpfApp4\\WpfApp4\\WpfApp4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aremi\\.nuget\\packages\\easycaptcha.wpf\\0.9.0.3\\easycaptcha.wpf.0.9.0.3.nupkg.sha512",
+    "C:\\Users\\aremi\\.nuget\\packages\\modernwpfui\\0.9.6\\modernwpfui.0.9.6.nupkg.sha512",
+    "C:\\Users\\aremi\\.nuget\\packages\\wpf-ui\\3.0.4\\wpf-ui.3.0.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"EasyCaptcha.Wpf 0.9.0.3\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "EasyCaptcha.Wpf",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}
