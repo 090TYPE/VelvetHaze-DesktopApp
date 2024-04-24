@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp4.Page.Registrations"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:modern="http://schemas.modernwpf.com/2019" 
+        xmlns:easy="clr-namespace:EasyCaptcha.Wpf;assembly=EasyCaptcha.Wpf"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4.Page"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        MinHeight="360"
+        MinWidth="300"
+        Title="Регистрация" 
+        Height="470" 
+        Width="370">
+    <Grid>
+        <modern:SimpleStackPanel VerticalAlignment="Center" Spacing="30" Margin="20 0">
+            <ui:TextBox PlaceholderText="Введите логин" FontSize="16" x:Name="LoginTextBox"/>
+            <ui:PasswordBox PlaceholderText="Введите пароль" FontSize="16" Margin="0 15 0 0" ClearButtonEnabled="False" PasswordChar="*" x:Name="PasswordTextBox"/>
+            <ui:PasswordBox PlaceholderText="Введите пароль" FontSize="16" Margin="0 15 0 0" ClearButtonEnabled="False" PasswordChar="*" x:Name="PasswordTextBox2"/>
+            <ui:Button Content="Регистрация"  HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="RegButton" Margin="0 -15 0 0"/>
+            <ui:Button Content="Назад" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="BackButton" Margin="0 -15 0 0" Click="BackButton_Click"/>
+        </modern:SimpleStackPanel>
+        <Image Margin="110,10,110,355" Source="/Resources/Logo1.png" Stretch="Fill" Cursor=""/>
+    </Grid>
+</Window>

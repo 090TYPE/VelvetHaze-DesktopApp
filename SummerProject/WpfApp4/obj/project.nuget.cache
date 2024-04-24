@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cs6SWEpTabq0eyXXNblRNqbb/IkGcI1U5cxdAqc3y5E+ElYh6SHsJ3AsT0w8KVxJN4sWjBvAhh4SVnhwhlwk5A==",
+  "dgSpecHash": "5xwd7xReFWWDwlM94QbG3ng56s6Kx24KeStd2n4etViFj8zXyY/UpxQLlBZNuMFNa9jTbV+I1azXKipy6eDJsg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aremi\\source\\repos\\WpfApp4\\WpfApp4\\WpfApp4.csproj",
+  "projectFilePath": "C:\\Users\\aremi\\Desktop\\SummerProject\\WpfApp4\\WpfApp4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aremi\\.nuget\\packages\\easycaptcha.wpf\\0.9.0.3\\easycaptcha.wpf.0.9.0.3.nupkg.sha512",
     "C:\\Users\\aremi\\.nuget\\packages\\modernwpfui\\0.9.6\\modernwpfui.0.9.6.nupkg.sha512",

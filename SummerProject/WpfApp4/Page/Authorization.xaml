@@ -13,43 +13,13 @@
         MinWidth="300"
         Title="Авторизация" Height="470" Width="370">
     <Grid>
-        <modern:SimpleStackPanel VerticalAlignment="Center"
-                                 Spacing="30"
-                                 Margin="20 0">
-            <TextBlock Text="Авторизация"
-                   FontWeight="Bold"
-                   FontSize="25"
-                   HorizontalAlignment="Center"
-                   Margin="0 0 0 10"/>
-        <ui:TextBox PlaceholderText="Введите логин"
-                    FontSize="16"
-                    x:Name="LoginTextBox"/>
-        <ui:PasswordBox PlaceholderText="Введите пароль"
-             FontSize="16"
-             Margin="0 15 0 0"
-             ClearButtonEnabled="False"
-                        PasswordChar="*"
-             x:Name="PasswordTextBox"/>
-        <ui:Button Content="Авторизироваться"
-                   HorizontalAlignment="Stretch"
-                   Appearance="Dark"
-                   FontSize="19"
-                   x:Name="AuthButton"
-                   Margin="0 15 0 0"/>
-        <ui:Button Content="Регистрация"
-                   HorizontalAlignment="Stretch"
-                   Appearance="Dark"
-                   FontSize="19"
-                   x:Name="RegButton"
-                   Margin="0 -15 0 0"/>
-            <ui:Button Content="Выход"
-                    HorizontalAlignment="Stretch"
-                    Appearance="Dark"
-                    FontSize="19"
-                    x:Name="ExitButton"
-                    Margin="0 -15 0 0"/>
+        <modern:SimpleStackPanel VerticalAlignment="Center" Spacing="30" Margin="20 0">
+            <ui:TextBox PlaceholderText="Введите логин" FontSize="16" x:Name="LoginTextBox"/>
+            <ui:PasswordBox PlaceholderText="Введите пароль" FontSize="16" Margin="0 15 0 0" ClearButtonEnabled="False" PasswordChar="*" x:Name="PasswordTextBox"/>
+            <ui:Button Content="Авторизироваться" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="AuthButton" VerticalAlignment="Top"/>
+            <ui:Button Content="Регистрация"  HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="RegButton" Margin="0 -15 0 0" Click="RegButton_Click"/>
+            <ui:Button Content="Выход" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="ExitButton" Margin="0 -15 0 0" Click="ExitButton_Click"/>
         </modern:SimpleStackPanel>
-
-      
+        <Image Margin="110,10,110,355" Source="/Resources/Logo1.png" Stretch="Fill" Cursor=""/>
     </Grid>
 </Window>

@@ -1037,11 +1037,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aremi\\source\\repos\\WpfApp4\\WpfApp4\\WpfApp4.csproj",
+      "projectUniqueName": "C:\\Users\\aremi\\Desktop\\SummerProject\\WpfApp4\\WpfApp4.csproj",
       "projectName": "WpfApp4",
-      "projectPath": "C:\\Users\\aremi\\source\\repos\\WpfApp4\\WpfApp4\\WpfApp4.csproj",
+      "projectPath": "C:\\Users\\aremi\\Desktop\\SummerProject\\WpfApp4\\WpfApp4.csproj",
       "packagesPath": "C:\\Users\\aremi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aremi\\source\\repos\\WpfApp4\\WpfApp4\\obj\\",
+      "outputPath": "C:\\Users\\aremi\\Desktop\\SummerProject\\WpfApp4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

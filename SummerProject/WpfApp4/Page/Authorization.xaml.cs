@@ -23,5 +23,17 @@ namespace WpfApp4.Page
         {
             InitializeComponent();
         }
+
+        private void ExitButton_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+        }
+
+        private void RegButton_Click(object sender, RoutedEventArgs e)
+        {
+            Registrations registrations = new Registrations();
+            registrations.Show();
+            this.Visibility = Visibility.Collapsed;
+        }
     }
 }

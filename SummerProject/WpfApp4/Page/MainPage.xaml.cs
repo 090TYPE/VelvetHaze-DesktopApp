@@ -23,5 +23,26 @@ namespace WpfApp4.Page
         {
             InitializeComponent();
         }
+
+        private void Label_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Authorization authorization = new Authorization();
+            authorization.Show();
+            this.Visibility = Visibility.Collapsed;
+        }
+
+        private void Label_MouseDoubleClick_1(object sender, MouseButtonEventArgs e)
+        {
+            MenСlothing menСlothing = new MenСlothing();
+            menСlothing.Show();
+            this.Visibility = Visibility.Collapsed;
+        }
+
+        private void Label_MouseDoubleClick_2(object sender, MouseButtonEventArgs e)
+        {
+            WomenClothing womenClothing = new WomenClothing();
+            womenClothing.Show();
+            this.Visibility = Visibility.Collapsed;
+        }
     }
 }
