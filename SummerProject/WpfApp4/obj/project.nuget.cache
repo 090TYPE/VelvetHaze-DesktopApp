@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5xwd7xReFWWDwlM94QbG3ng56s6Kx24KeStd2n4etViFj8zXyY/UpxQLlBZNuMFNa9jTbV+I1azXKipy6eDJsg==",
+  "dgSpecHash": "IF2d0o8Pwj21Ydv1F35kXBBstH2jqFNStYkZ5U+y/QYgztxS4E+tGA+OZgymSlIE/CQEg2oV5eMO+57mw7sQfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aremi\\Desktop\\SummerProject\\WpfApp4\\WpfApp4.csproj",
+  "projectFilePath": "C:\\Users\\rabbi\\OneDrive\\Рабочий стол\\SummerProject\\WpfApp4\\WpfApp4.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\aremi\\.nuget\\packages\\easycaptcha.wpf\\0.9.0.3\\easycaptcha.wpf.0.9.0.3.nupkg.sha512",
-    "C:\\Users\\aremi\\.nuget\\packages\\modernwpfui\\0.9.6\\modernwpfui.0.9.6.nupkg.sha512",
-    "C:\\Users\\aremi\\.nuget\\packages\\wpf-ui\\3.0.4\\wpf-ui.3.0.4.nupkg.sha512"
+    "C:\\Users\\rabbi\\.nuget\\packages\\easycaptcha.wpf\\0.9.0.3\\easycaptcha.wpf.0.9.0.3.nupkg.sha512",
+    "C:\\Users\\rabbi\\.nuget\\packages\\modernwpfui\\0.9.6\\modernwpfui.0.9.6.nupkg.sha512",
+    "C:\\Users\\rabbi\\.nuget\\packages\\wpf-ui\\3.0.4\\wpf-ui.3.0.4.nupkg.sha512"
   ],
   "logs": [
     {

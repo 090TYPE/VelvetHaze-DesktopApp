@@ -127,11 +127,10 @@
                     Foreground="White" Height="26"/>
 
             </StackPanel>
-            <ListBox
-                Grid.Row="1" Grid.Column="0"
-                Margin="0,49,0,265" Padding="10"
+            <ListBox Grid.Column="0"
+                Margin="0,48,0,140" Padding="10"
                 Background="#1F1F1F" BorderBrush="#1F1F1F"
-                Foreground="White" Grid.ColumnSpan="2" Grid.RowSpan="2">
+                Foreground="White" Grid.ColumnSpan="2" Grid.Row="2">
 
                 <ListBoxItem Height="21">
                     <Grid>
@@ -159,12 +158,12 @@
 
             </ListBox>
             <ListBox
-                Grid.Row="2" Grid.Column="0"
-                Margin="0,17,0,214" Padding="10"
+                Grid.Row="1" Grid.Column="0"
+                Margin="0,65,0,214" Padding="10"
                 Background="#1F1F1F" BorderBrush="#1F1F1F"
-                Foreground="White" Grid.ColumnSpan="2">
+                Foreground="White" Grid.ColumnSpan="2" Grid.RowSpan="2" RenderTransformOrigin="0.501,0.989">
 
-                <ListBoxItem Height="23">
+                <ListBoxItem Height="48">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition/>

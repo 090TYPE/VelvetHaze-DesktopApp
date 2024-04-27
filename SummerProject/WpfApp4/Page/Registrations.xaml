@@ -16,11 +16,20 @@
         Width="370">
     <Grid>
         <modern:SimpleStackPanel VerticalAlignment="Center" Spacing="30" Margin="20 0">
-            <ui:TextBox PlaceholderText="Введите логин" FontSize="16" x:Name="LoginTextBox"/>
-            <ui:PasswordBox PlaceholderText="Введите пароль" FontSize="16" Margin="0 15 0 0" ClearButtonEnabled="False" PasswordChar="*" x:Name="PasswordTextBox"/>
-            <ui:PasswordBox PlaceholderText="Введите пароль" FontSize="16" Margin="0 15 0 0" ClearButtonEnabled="False" PasswordChar="*" x:Name="PasswordTextBox2"/>
-            <ui:Button Content="Регистрация"  HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="RegButton" Margin="0 -15 0 0"/>
-            <ui:Button Content="Назад" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="BackButton" Margin="0 -15 0 0" Click="BackButton_Click"/>
+            <ui:TextBox BorderBrush="#1F1F1F" PlaceholderText="Введите логин" FontSize="16" x:Name="LoginTextBox"/>
+            <ui:PasswordBox BorderBrush="#1F1F1F" PlaceholderText="Введите пароль" FontSize="16" ClearButtonEnabled="False" PasswordChar="*" x:Name="PasswordTextBox" Height="30"/>
+            <ui:PasswordBox BorderBrush="#1F1F1F" PlaceholderText="Введите пароль" FontSize="16" ClearButtonEnabled="False" PasswordChar="*" x:Name="PasswordTextBox2" Height="33" RenderTransformOrigin="0.5,0.5">
+                <ui:PasswordBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="1"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ui:PasswordBox.RenderTransform>
+            </ui:PasswordBox>
+            <ui:Button Content="Регистрация" Background="#1F1F1F" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="RegButton" Margin="0 -15 0 0"/>
+            <ui:Button Content="Назад" Background="#1F1F1F" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="BackButton" Margin="0 -15 0 0" Click="BackButton_Click"/>
         </modern:SimpleStackPanel>
         <Image Margin="110,10,110,355" Source="/Resources/Logo1.png" Stretch="Fill" Cursor=""/>
     </Grid>

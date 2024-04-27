@@ -23,18 +23,18 @@
                     <ColumnDefinition Width="949*"/>
                 </Grid.ColumnDefinitions>
                 <!--<Label>Думаю надо сделать побольше их и установить шрифт нормальный(apple)</Label>-->
-                <Label Content="Личный кабинет" HorizontalAlignment="Left" Margin="24,28,0,0" VerticalAlignment="Top" Grid.Column="2" MouseDoubleClick="Label_MouseDoubleClick"/>
-                <Label Content="О нас" HorizontalAlignment="Left" Margin="234,28,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2"/>
-                <Label Content="Мужское" HorizontalAlignment="Left" Margin="30,28,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontSize="48" FontFamily="Segoe UI" MouseDoubleClick="Label_MouseDoubleClick_1"/>
-                <Label Content="Женское" HorizontalAlignment="Center" Margin="0,28,0,0" VerticalAlignment="Top" Grid.Column="1" MouseDoubleClick="Label_MouseDoubleClick_2"/>
-                <Label Content="Аксесуары" HorizontalAlignment="Left" Margin="161,28,0,0" VerticalAlignment="Top"  Grid.ColumnSpan="2"/>
-                <Image Source="/Resources/Front.jpg" HorizontalAlignment="Left" Height="531" Margin="30,51,0,0" VerticalAlignment="Top" Width="1140" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+                <Button Background="White" Content="Личный кабинет" Margin="70,28,0,0" VerticalAlignment="Top" Grid.Column="2" MouseDoubleClick="Label_MouseDoubleClick"/>
+                <Button Background="White" Content="О нас" Margin="16,28,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+                <Button Background="White" Content="Мужское" HorizontalAlignment="Left" Margin="30,28,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontSize="48" FontFamily="Segoe UI" MouseDoubleClick="Label_MouseDoubleClick_1"/>
+                <Button Background="White" Content="Женское" Margin="107,28,0,0" VerticalAlignment="Top" Grid.Column="1" MouseDoubleClick="Label_MouseDoubleClick_2"/>
+                <Button Background="White" Content="Аксесуары" Margin="181,28,0,0" VerticalAlignment="Top"  Grid.ColumnSpan="3"/>
+                <Image Source="/Resources/Front.jpg" HorizontalAlignment="Left" Height="531" Margin="29,60,0,0" VerticalAlignment="Top" Width="1140" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
                 <Image Source="/Resources/ShoppingPin.jpg" Grid.Column="2" HorizontalAlignment="Left" Height="40" Margin="843,9,0,0" VerticalAlignment="Top" Width="43"/>
                 <Image Source="/Resources/Exit.png" Grid.Column="2" HorizontalAlignment="Left" Height="36" Margin="883,11,0,0" VerticalAlignment="Top" Width="38"/>
                 <Image Source="/Resources/Phone.png" Grid.Column="2" HorizontalAlignment="Left" Height="34" Margin="810,12,0,0" VerticalAlignment="Top" Width="33"/>
                 <Image Source="/Resources/Magnifier.png" Grid.Column="2" HorizontalAlignment="Left" Height="36" Margin="774,14,0,0" VerticalAlignment="Top" Width="31" RenderTransformOrigin="0.516,0.584"/>
                 <Image Source="/Resources/Logo1.png" Grid.Column="2" HorizontalAlignment="Left" Height="65" Margin="475,0,0,0" VerticalAlignment="Top" Width="100"/>
-                <Image Source="/Resources/Logo2.png" Grid.Column="2" HorizontalAlignment="Left" Height="73" Margin="863,284,0,0" Grid.Row="1" VerticalAlignment="Top" Width="76"/>
+                <Image Source="/Resources/Logo2.png" Grid.Column="2" HorizontalAlignment="Left" Height="73" Margin="863,309,0,0" Grid.Row="1" VerticalAlignment="Top" Width="76"/>
             </Grid>
         </ScrollViewer>
     </Grid>
