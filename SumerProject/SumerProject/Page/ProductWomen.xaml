@@ -1,0 +1,21 @@
+﻿<Window x:Class="SumerProject.Page.ProductWomen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SumerProject.Page"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+        mc:Ignorable="d"
+        Title="ProductWomen" Height="450" Width="800">
+    <Grid>
+        <ui:Image Margin="10,52,405,86" x:Name="ImageControl" Source="{Binding ImageRes}"/>
+        <TextBlock Margin="420,53,10,325" x:Name="Name" FontSize="24" FontWeight="Bold" Text="{Binding NameProduct}" TextWrapping="Wrap"/>
+        <TextBlock Margin="452,120,-22,268" x:Name="Name2" FontSize="12" Text="{Binding Coast, StringFormat='{}{0} ₽'}"/>
+        <TextBlock Margin="452,156,-22,234" x:Name="Name3" FontSize="12" Text="Цвет: {Binding Color}" TextWrapping="Wrap"/>
+        <TextBlock Text="Цвет:" FontSize="12" Margin="420,156,186,232"/>
+        <TextBlock Margin="420,193,10,113" x:Name="Opis" FontSize="19" TextWrapping="Wrap" Text="{Binding DescriptionProduct}"/>
+        <ui:Button Content="Купить" Margin="505,316,0,0" Width="220" VerticalAlignment="Top" Click="AddCart_Click"/>
+        <TextBlock Text="Цена:" FontSize="12" Margin="420,120,186,268"/>
+        <ComboBox x:Name="SizeSelector" Margin="615,143,0,0" DisplayMemberPath="Size" SelectedValuePath="ID_Size"/>
+    </Grid>
+</Window>

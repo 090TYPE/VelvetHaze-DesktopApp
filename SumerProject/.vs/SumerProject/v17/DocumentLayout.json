@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\rabbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\sumerproject\\sumerproject\\page\\cartmen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\cartmen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\rabbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\sumerproject\\sumerproject\\page\\cartwomen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\cartwomen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\rabbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\sumerproject\\sumerproject\\page\\men\u0441lothing.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\men\u0441lothing.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\rabbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\sumerproject\\sumerproject\\page\\personalaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\personalaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\rabbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\sumerproject\\sumerproject\\page\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\rabbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\sumerproject\\sumerproject\\page\\productwomen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\productwomen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\rabbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\sumerproject\\sumerproject\\page\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\rabbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\sumerproject\\sumerproject\\page\\womenclothing.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\womenclothing.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 99,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonalAccount.xaml",
+              "DocumentMoniker": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\PersonalAccount.xaml",
+              "RelativeDocumentMoniker": "SumerProject\\Page\\PersonalAccount.xaml",
+              "ToolTip": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\PersonalAccount.xaml",
+              "RelativeToolTip": "SumerProject\\Page\\PersonalAccount.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T14:23:55.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WomenClothing.xaml",
+              "DocumentMoniker": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\WomenClothing.xaml",
+              "RelativeDocumentMoniker": "SumerProject\\Page\\WomenClothing.xaml",
+              "ToolTip": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\WomenClothing.xaml",
+              "RelativeToolTip": "SumerProject\\Page\\WomenClothing.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T14:08:53.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\MainPage.xaml",
+              "RelativeDocumentMoniker": "SumerProject\\Page\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\MainPage.xaml",
+              "RelativeToolTip": "SumerProject\\Page\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T12:42:47.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductWomen.xaml",
+              "DocumentMoniker": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\ProductWomen.xaml",
+              "RelativeDocumentMoniker": "SumerProject\\Page\\ProductWomen.xaml",
+              "ToolTip": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\ProductWomen.xaml",
+              "RelativeToolTip": "SumerProject\\Page\\ProductWomen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T14:12:42.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Men\u0421lothing.xaml",
+              "DocumentMoniker": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\Men\u0421lothing.xaml",
+              "RelativeDocumentMoniker": "SumerProject\\Page\\Men\u0421lothing.xaml",
+              "ToolTip": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\Men\u0421lothing.xaml",
+              "RelativeToolTip": "SumerProject\\Page\\Men\u0421lothing.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T14:08:51.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartWomen.xaml",
+              "DocumentMoniker": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\CartWomen.xaml",
+              "RelativeDocumentMoniker": "SumerProject\\Page\\CartWomen.xaml",
+              "ToolTip": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\CartWomen.xaml",
+              "RelativeToolTip": "SumerProject\\Page\\CartWomen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T14:01:21.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartMen.xaml",
+              "DocumentMoniker": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\CartMen.xaml",
+              "RelativeDocumentMoniker": "SumerProject\\Page\\CartMen.xaml",
+              "ToolTip": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\CartMen.xaml",
+              "RelativeToolTip": "SumerProject\\Page\\CartMen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T14:01:19.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\AdminPage.xaml",
+              "RelativeDocumentMoniker": "SumerProject\\Page\\AdminPage.xaml",
+              "ToolTip": "C:\\Users\\rabbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\123\\SumerProject\\SumerProject\\Page\\AdminPage.xaml",
+              "RelativeToolTip": "SumerProject\\Page\\AdminPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T13:59:24.659Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

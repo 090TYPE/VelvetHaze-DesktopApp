@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="ID_Order" />
+    </Key>
+    <Property Name="ID_Order" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Product" Type="Int32" />
+    <Property Name="ID_Size" Type="Int32" />
+    <Property Name="ID_User" Type="Int32" />
+    <Property Name="Adress" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="product" Relationship="Self.FK__Orders__ID_Produ__5EBF139D" FromRole="Orders" ToRole="product" />
+    <NavigationProperty Name="Sizes" Relationship="Self.FK__Orders__ID_Size__5FB337D6" FromRole="Orders" ToRole="Sizes" />
+    <NavigationProperty Name="users" Relationship="Self.FK__Orders__ID_User__60A75C0F" FromRole="Orders" ToRole="users" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="ID_Product" />
+    </Key>
+    <Property Name="ID_Product" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameProduct" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Coast" Type="Int32" Nullable="false" />
+    <Property Name="ImageRes" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DescriptionProduct" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__ID_Produ__5EBF139D" FromRole="product" ToRole="Orders" />
+    <NavigationProperty Name="Sizes" Relationship="Self.FK__Sizes__ID_Produc__4BAC3F29" FromRole="product" ToRole="Sizes" />
+  </EntityType>
+  <EntityType Name="Sizes">
+    <Key>
+      <PropertyRef Name="ID_Size" />
+    </Key>
+    <Property Name="ID_Size" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Product" Type="Int32" />
+    <Property Name="Size" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__ID_Size__5FB337D6" FromRole="Sizes" ToRole="Orders" />
+    <NavigationProperty Name="product" Relationship="Self.FK__Sizes__ID_Produc__4BAC3F29" FromRole="Sizes" ToRole="product" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="ID_User" />
+    </Key>
+    <Property Name="ID_User" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Number" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="loginUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PasswordUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__ID_User__60A75C0F" FromRole="users" ToRole="Orders" />
+  </EntityType>
+  <Association Name="FK__Orders__ID_Produ__5EBF139D">
+    <End Role="product" Type="Self.product" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="product">
+        <PropertyRef Name="ID_Product" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="ID_Product" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Orders__ID_Size__5FB337D6">
+    <End Role="Sizes" Type="Self.Sizes" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sizes">
+        <PropertyRef Name="ID_Size" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="ID_Size" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Orders__ID_User__60A75C0F">
+    <End Role="users" Type="Self.users" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="ID_User" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="ID_User" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sizes__ID_Produc__4BAC3F29">
+    <End Role="product" Type="Self.product" Multiplicity="0..1" />
+    <End Role="Sizes" Type="Self.Sizes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="product">
+        <PropertyRef Name="ID_Product" />
+      </Principal>
+      <Dependent Role="Sizes">
+        <PropertyRef Name="ID_Product" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TestEntities5" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Orders" EntityType="Self.Orders" />
+    <EntitySet Name="product" EntityType="Self.product" />
+    <EntitySet Name="Sizes" EntityType="Self.Sizes" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="users" EntityType="Self.users" />
+    <AssociationSet Name="FK__Orders__ID_Produ__5EBF139D" Association="Self.FK__Orders__ID_Produ__5EBF139D">
+      <End Role="product" EntitySet="product" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Orders__ID_Size__5FB337D6" Association="Self.FK__Orders__ID_Size__5FB337D6">
+      <End Role="Sizes" EntitySet="Sizes" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Orders__ID_User__60A75C0F" Association="Self.FK__Orders__ID_User__60A75C0F">
+      <End Role="users" EntitySet="users" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sizes__ID_Produc__4BAC3F29" Association="Self.FK__Sizes__ID_Produc__4BAC3F29">
+      <End Role="product" EntitySet="product" />
+      <End Role="Sizes" EntitySet="Sizes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
