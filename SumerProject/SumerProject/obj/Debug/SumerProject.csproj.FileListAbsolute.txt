@@ -700,3 +700,7 @@ C:\Users\rabbi\OneDrive\Рабочий стол\123\SumerProject\SumerProject\ob
 C:\Users\rabbi\OneDrive\Рабочий стол\123\SumerProject\SumerProject\obj\Debug\SumerPro.CD04D114.Up2Date
 C:\Users\rabbi\OneDrive\Рабочий стол\123\SumerProject\SumerProject\obj\Debug\SumerProject.exe
 C:\Users\rabbi\OneDrive\Рабочий стол\123\SumerProject\SumerProject\obj\Debug\SumerProject.pdb
+C:\Users\090\Documents\GitHub\project_C.Sharp\SumerProject\SumerProject\obj\Debug\Page\AddProduct.g.cs
+C:\Users\090\Documents\GitHub\project_C.Sharp\SumerProject\SumerProject\obj\Debug\Page\AddProduct.baml
+C:\Users\090\Documents\GitHub\project_C.Sharp\SumerProject\SumerProject\obj\Debug\Page\DataShow.g.cs
+C:\Users\090\Documents\GitHub\project_C.Sharp\SumerProject\SumerProject\obj\Debug\Page\DataShow.baml

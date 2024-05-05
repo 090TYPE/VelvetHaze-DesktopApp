@@ -76,36 +76,43 @@
             </StackPanel>
             <ListView
                 Name="ProductList"
-                Grid.Column="1"
-                Margin="35,46,15,37"
-                ItemsSource="{Binding Products}" Grid.ColumnSpan="2" Grid.Row="1">
-
+                Grid.Row="1"
+                Grid.ColumnSpan="3"
+                Margin="10,10,15,37"
+                ItemsSource="{Binding Products}">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="2" />
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <Border Margin="5" BorderThickness="1">
-                            <StackPanel Orientation="Vertical">
-                                <Image
-                                    Width="350"
-                                    Height="350"
-                                    Source="{Binding ImageRes}" />
-                                <TextBlock
-                                    FontSize="26"
-                                    FontWeight="Bold"
-                                    Text="{Binding NameProduct}"
-                                    TextAlignment="Center" />
-                                <TextBlock
-                                    FontSize="24"
-                                    Text="{Binding Coast, StringFormat='{}{0} ₽'}"
-                                    TextAlignment="Center" />
-                                <Button
-                                    Width="Auto"
-                                    HorizontalAlignment="Stretch"
-                                    Background="Black"
-                                    Click="AddToCart_Click"
-                                    Content="Добавить в корзину"
-                                    Foreground="White" />
-                            </StackPanel>
-                        </Border>
+                        <ScrollViewer VerticalAlignment="Center">
+                            <Border Margin="2,2,2,35" BorderThickness="1">
+                                <StackPanel Orientation="Vertical">
+                                    <Image
+                                        Width="350"
+                                        Height="350"
+                                        Source="{Binding ImageRes}" />
+                                    <TextBlock
+                                        FontSize="26"
+                                        FontWeight="Bold"
+                                        Text="{Binding NameProduct}"
+                                        TextAlignment="Center" />
+                                    <TextBlock
+                                        FontSize="24"
+                                        Text="{Binding Coast, StringFormat='{}{0} ₽'}"
+                                        TextAlignment="Center" />
+                                    <Button
+                                        Width="Auto"
+                                        HorizontalAlignment="Stretch"
+                                        Background="Black"
+                                        Click="AddToCart_Click"
+                                        Content="Добавить в корзину"
+                                        Foreground="White" />
+                                </StackPanel>
+                            </Border>
+                        </ScrollViewer>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

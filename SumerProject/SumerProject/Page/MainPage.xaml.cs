@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SumerProject.Assets;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,34 +23,34 @@ namespace SumerProject.Page
         public MainPage()
         {
             InitializeComponent();
-            cab.MouseDown += cab_MouseDown;
         }
 
-        private void Label_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void Lich_Click(object sender, RoutedEventArgs e)
         {
-            Authorization authorization = new Authorization();
-            authorization.Show();
-            this.Visibility = Visibility.Collapsed;
+            if (GlobalUser.ID_User != 0)
+            {
+                PersonalAccount personalAccount = new PersonalAccount(GlobalUser.FirstName, GlobalUser.LastName, GlobalUser.Number, GlobalUser.ID_User, GlobalUser.ImageRes);
+                personalAccount.Show();
+            }
+            else
+            {
+                Authorization authorization = new Authorization();
+                authorization.Show();
+                this.Visibility = Visibility.Collapsed;
+            }
         }
 
-        private void Label_MouseDoubleClick_1(object sender, MouseButtonEventArgs e)
+        private void Muzh_Click(object sender, RoutedEventArgs e)
         {
             MenСlothing menСlothing = new MenСlothing();
             menСlothing.Show();
             this.Visibility = Visibility.Collapsed;
         }
 
-        private void Label_MouseDoubleClick_2(object sender, MouseButtonEventArgs e)
+        private void Zhen_Click(object sender, RoutedEventArgs e)
         {
             WomenClothing womenClothing = new WomenClothing();
             womenClothing.Show();
-            this.Visibility = Visibility.Collapsed;
-        }
-
-        private void cab_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            Authorization authorization = new Authorization();
-            authorization.Show();
             this.Visibility = Visibility.Collapsed;
         }
     }

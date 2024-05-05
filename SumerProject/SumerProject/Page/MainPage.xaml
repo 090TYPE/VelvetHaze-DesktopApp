@@ -22,10 +22,10 @@
                     <ColumnDefinition Width="251*"/>
                     <ColumnDefinition Width="949*"/>
                 </Grid.ColumnDefinitions>
-                <Button Background="White" BorderBrush="White" Content="Личный кабинет" Margin="81,20,0,0" VerticalAlignment="Top" Grid.Column="2" MouseDoubleClick="Label_MouseDoubleClick" FontSize="14" Height="30"/>
+                <Button Background="White" BorderBrush="White" Content="Личный кабинет" Margin="81,20,0,0" VerticalAlignment="Top" Grid.Column="2" Click="Lich_Click" FontSize="14" Height="30"/>
                 <Button Background="White" BorderBrush="White" Content="О нас" Margin="21,20,0,0" VerticalAlignment="Top" Grid.Column="2" FontSize="14" Width="60" Height="30"/>
-                <Button Background="White" BorderBrush="White" Content="Мужское" Margin="17,20,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontFamily="Segoe UI" MouseDoubleClick="Label_MouseDoubleClick_1" RenderTransformOrigin="0.516,0.653" FontSize="14" Width="83"/>
-                <Button Background="White" BorderBrush="White" Content="Женское" Margin="100,20,0,0" VerticalAlignment="Top" Grid.Column="1" MouseDoubleClick="Label_MouseDoubleClick_2" FontSize="14" Width="80"/>
+                <Button Background="White" BorderBrush="White" Content="Мужское" Margin="17,20,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontFamily="Segoe UI" Click="Muzh_Click" RenderTransformOrigin="0.516,0.653" FontSize="14" Width="83"/>
+                <Button Background="White" BorderBrush="White" Content="Женское" Margin="100,20,0,0" VerticalAlignment="Top" Grid.Column="1" Click="Zhen_Click" FontSize="14" Width="80"/>
                 <Button Background="White" BorderBrush="White" Content="Аксесуары" Margin="180,20,0,0" VerticalAlignment="Top" Grid.Column="1" FontSize="14" Grid.ColumnSpan="2" Width="92"/>
                 <Image Source="/Resources/Front.jpg" HorizontalAlignment="Left" Height="543" Margin="29,50,0,0" VerticalAlignment="Top" Width="1140" Grid.Column="1" Grid.ColumnSpan="2"/>
                 <Image Source="/Resources/ShoppingPin.jpg" Grid.Column="2" HorizontalAlignment="Left" Height="40" Margin="843,9,0,0" VerticalAlignment="Top" Width="43"/>

@@ -67,6 +67,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GlobalUser.cs" />
     <Compile Include="Assets\RelayCommand.cs" />
     <Compile Include="DataBase\Model3.Context.cs">
       <AutoGen>True</AutoGen>
@@ -98,6 +99,9 @@
     <Compile Include="DataBase\users.cs">
       <DependentUpon>Model3.tt</DependentUpon>
     </Compile>
+    <Compile Include="Page\AddProduct.xaml.cs">
+      <DependentUpon>AddProduct.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Page\AdminPage.xaml.cs">
       <DependentUpon>AdminPage.xaml</DependentUpon>
     </Compile>
@@ -109,6 +113,9 @@
     </Compile>
     <Compile Include="Page\CartWomen.xaml.cs">
       <DependentUpon>CartWomen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page\DataShow.xaml.cs">
+      <DependentUpon>DataShow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Page\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -230,9 +237,13 @@
     <Resource Include="Resources\T-Shirt6Woman.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Page\AdminPage.xaml">
+    <Page Include="Page\AddProduct.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Page\AdminPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Page\Authorization.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -243,6 +254,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Page\CartWomen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\DataShow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -308,6 +323,15 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\Carhartt.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Han_KJ.jpg" />
+    <Resource Include="Resources\CP_Company.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="DataBase\Model3.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model3.edmx</DependentUpon>
@@ -318,11 +342,7 @@
       <DependentUpon>Model3.edmx</DependentUpon>
       <LastGenOutput>Model3.cs</LastGenOutput>
     </Content>
-    <Resource Include="Resources\Carhartt.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Han_KJ.jpg" />
-    <Resource Include="Resources\CP_Company.jpg">
+    <Resource Include="Resources\UnkownUser.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

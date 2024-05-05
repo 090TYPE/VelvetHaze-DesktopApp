@@ -1,7 +1,9 @@
-﻿using SumerProject.DataBase;
+﻿using Microsoft.Win32;
+using SumerProject.DataBase;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +15,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Xml.Serialization;
 
 namespace SumerProject.Page
 {
@@ -21,10 +24,12 @@ namespace SumerProject.Page
     /// </summary>
     public partial class Registrations : Window
     {
+        private byte[] imageData;
         public Registrations()
         {
             InitializeComponent();
         }
+
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
@@ -32,6 +37,7 @@ namespace SumerProject.Page
             authorization.Show();
             this.Visibility = Visibility.Collapsed;
         }
+
 
         private void RegButton_Click(object sender, RoutedEventArgs e)
         {
@@ -68,8 +74,9 @@ namespace SumerProject.Page
                         loginUser = login,
                         PasswordUser = password,
                         Number = number,
-                        FirstName = firstName, 
-                        LastName = lastName
+                        FirstName = firstName,
+                        LastName = lastName,
+                        ImageRes = imageData
                     };
 
                     context.users.Add(newUser);
@@ -82,5 +89,22 @@ namespace SumerProject.Page
                 }
             }
         }
-    }   
+
+
+        private void Pic_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Image files (*.png;*.jpeg;*.jpg)|*.png;*.jpeg;*.jpg|All files (*.*)|*.*";
+            if (openFileDialog.ShowDialog() == true)
+            {
+                imageData = File.ReadAllBytes(openFileDialog.FileName);
+
+                // Если у вас есть элемент Image для отображения, добавьте код для его обновления
+                BitmapImage bitmap = new BitmapImage();
+                bitmap.BeginInit();
+                bitmap.StreamSource = new MemoryStream(imageData);
+                bitmap.EndInit();
+            }
+        }
+    }
 }

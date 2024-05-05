@@ -26,6 +26,7 @@ namespace SumerProject.DataBase
         public string Number { get; set; }
         public string loginUser { get; set; }
         public string PasswordUser { get; set; }
+        public byte[] ImageRes { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Orders> Orders { get; set; }

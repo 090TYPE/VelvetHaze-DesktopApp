@@ -12,7 +12,7 @@
         MinHeight="360"
         MinWidth="300"
         Title="Регистрация" 
-        Height="630" 
+        Height="680" 
         Width="370">
     <Grid Margin="0,0,0,-6">
         <modern:SimpleStackPanel VerticalAlignment="Center" Spacing="30" Margin="20 0">
@@ -31,9 +31,10 @@
                     </TransformGroup>
                 </ui:PasswordBox.RenderTransform>
             </ui:PasswordBox>
+            <ui:Button Content="Добавить фото" Background="#1F1F1F" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="PicButton" Click="Pic_Click"/>
             <ui:Button Content="Регистрация" Background="#1F1F1F" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="RegButton" Margin="0 -15 0 0" Click="RegButton_Click"/>
             <ui:Button Content="Назад" Background="#1F1F1F" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="BackButton" Margin="0 -15 0 0" Click="BackButton_Click"/>
         </modern:SimpleStackPanel>
-        <Image Margin="106,0,106,525" Source="/Resources/Logo1.png" Stretch="Fill" Cursor=""/>
+        <Image Margin="103,-1,103,588" Source="/Resources/Logo1.png" Stretch="Fill" Cursor=""/>
     </Grid>
 </Window>

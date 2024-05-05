@@ -55,6 +55,7 @@
           <ScalarProperty Name="Number" ColumnName="Number" />
           <ScalarProperty Name="loginUser" ColumnName="loginUser" />
           <ScalarProperty Name="PasswordUser" ColumnName="PasswordUser" />
+          <ScalarProperty Name="ImageRes" ColumnName="ImageRes" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -51,8 +51,9 @@
     <Property Name="Number" Type="varchar" MaxLength="50" />
     <Property Name="loginUser" Type="varchar" MaxLength="50" />
     <Property Name="PasswordUser" Type="varchar" MaxLength="50" />
+    <Property Name="ImageRes" Type="image" />
   </EntityType>
-  <Association Name="FK__Orders__ID_Produ__5EBF139D">
+  <Association Name="FK__Orders__ID_Produ__6A30C649">
     <End Role="product" Type="Self.product" Multiplicity="0..1" />
     <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
     <ReferentialConstraint>
@@ -64,7 +65,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Orders__ID_Size__5FB337D6">
+  <Association Name="FK__Orders__ID_Size__6B24EA82">
     <End Role="Sizes" Type="Self.Sizes" Multiplicity="0..1" />
     <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
     <ReferentialConstraint>
@@ -76,7 +77,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Orders__ID_User__60A75C0F">
+  <Association Name="FK__Orders__ID_User__6C190EBB">
     <End Role="users" Type="Self.users" Multiplicity="0..1" />
     <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
     <ReferentialConstraint>
@@ -88,7 +89,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Sizes__ID_Produc__4BAC3F29">
+  <Association Name="FK__Sizes__ID_Produc__6754599E">
     <End Role="product" Type="Self.product" Multiplicity="0..1" />
     <End Role="Sizes" Type="Self.Sizes" Multiplicity="*" />
     <ReferentialConstraint>
@@ -106,19 +107,19 @@
     <EntitySet Name="Sizes" EntityType="Self.Sizes" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK__Orders__ID_Produ__5EBF139D" Association="Self.FK__Orders__ID_Produ__5EBF139D">
+    <AssociationSet Name="FK__Orders__ID_Produ__6A30C649" Association="Self.FK__Orders__ID_Produ__6A30C649">
       <End Role="product" EntitySet="product" />
       <End Role="Orders" EntitySet="Orders" />
     </AssociationSet>
-    <AssociationSet Name="FK__Orders__ID_Size__5FB337D6" Association="Self.FK__Orders__ID_Size__5FB337D6">
+    <AssociationSet Name="FK__Orders__ID_Size__6B24EA82" Association="Self.FK__Orders__ID_Size__6B24EA82">
       <End Role="Sizes" EntitySet="Sizes" />
       <End Role="Orders" EntitySet="Orders" />
     </AssociationSet>
-    <AssociationSet Name="FK__Orders__ID_User__60A75C0F" Association="Self.FK__Orders__ID_User__60A75C0F">
+    <AssociationSet Name="FK__Orders__ID_User__6C190EBB" Association="Self.FK__Orders__ID_User__6C190EBB">
       <End Role="users" EntitySet="users" />
       <End Role="Orders" EntitySet="Orders" />
     </AssociationSet>
-    <AssociationSet Name="FK__Sizes__ID_Produc__4BAC3F29" Association="Self.FK__Sizes__ID_Produc__4BAC3F29">
+    <AssociationSet Name="FK__Sizes__ID_Produc__6754599E" Association="Self.FK__Sizes__ID_Produc__6754599E">
       <End Role="product" EntitySet="product" />
       <End Role="Sizes" EntitySet="Sizes" />
     </AssociationSet>

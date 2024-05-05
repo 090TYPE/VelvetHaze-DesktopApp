@@ -1,4 +1,5 @@
-﻿using SumerProject.DataBase;
+﻿using SumerProject.Assets;
+using SumerProject.DataBase;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -50,13 +51,14 @@ namespace SumerProject.Page
                     {
                         if (login == "admin" && password =="admin")
                         {
-                            AdminPage adminPage = new AdminPage();
+                            AdminPage adminPage= new AdminPage();
                             adminPage.Show();
                             this.Visibility = Visibility.Collapsed;
                         }
                         else
                         {
-                        PersonalAccount personalAccount = new PersonalAccount(user.FirstName, user.LastName, user.Number,user.ID_User);
+                        GlobalUser.SetUser(user.FirstName, user.LastName, user.Number, user.ID_User,user.ImageRes);
+                        PersonalAccount personalAccount = new PersonalAccount(GlobalUser.FirstName, GlobalUser.LastName, GlobalUser.Number,GlobalUser.ID_User, GlobalUser.ImageRes);
                         personalAccount.Show();
                             this.Visibility = Visibility.Collapsed;
                         }
