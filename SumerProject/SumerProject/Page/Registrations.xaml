@@ -35,6 +35,6 @@
             <ui:Button Content="Регистрация" Background="#1F1F1F" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="RegButton" Margin="0 -15 0 0" Click="RegButton_Click"/>
             <ui:Button Content="Назад" Background="#1F1F1F" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="BackButton" Margin="0 -15 0 0" Click="BackButton_Click"/>
         </modern:SimpleStackPanel>
-        <Image Margin="103,-1,103,588" Source="/Resources/Logo1.png" Stretch="Fill" Cursor=""/>
+        <Image Margin="103,-1,103,576" Source="/Resources/Logo1.png" Stretch="Fill" Cursor=""/>
     </Grid>
 </Window>

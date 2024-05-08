@@ -135,6 +135,9 @@
     <Compile Include="Page\Registrations.xaml.cs">
       <DependentUpon>Registrations.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Page\Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Page\WomenClothing.xaml.cs">
       <DependentUpon>WomenClothing.xaml</DependentUpon>
     </Compile>
@@ -285,6 +288,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Page\Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Page\WomenClothing.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -342,6 +349,10 @@
       <DependentUpon>Model3.edmx</DependentUpon>
       <LastGenOutput>Model3.cs</LastGenOutput>
     </Content>
+    <Resource Include="Resources\C.9.3Photo.jpg" />
+    <Resource Include="Resources\Goldwin.jpg" />
+    <Resource Include="Resources\Mizuno.jpg" />
+    <Resource Include="Resources\Paura.jpg" />
     <Resource Include="Resources\UnkownUser.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
