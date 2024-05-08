@@ -21,12 +21,12 @@
             </ListView.View>
         </ListView>
         <Button
-            Margin="35,0,217,8"
+            Margin="39,0,0,10"
             VerticalAlignment="Bottom"
             Click="Delete_Click"
-            Content="Очистить корзину" Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Width="148.176666666667" Height="32"/>
+            Content="Очистить корзину" Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Width="148.176666666667" Height="31.62"/>
         <Button
-             Margin="217,0,35,8"
+             Margin="212,0,0,10"
              VerticalAlignment="Bottom"
              Click="Delete_Click"
              Content="Оформить заказ" Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Width="148" Height="32"/>

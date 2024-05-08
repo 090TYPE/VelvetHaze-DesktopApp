@@ -52,12 +52,12 @@
                 Text="Мужская одежда" />
 
             <ListBox
-                Width="190"
+                Width="191"
                 Margin="0,20,0,0"
                 Padding="10"
                 Background="#1F1F1F"
                 BorderBrush="#1F1F1F"
-                Foreground="White" Height="197">
+                Foreground="White">
                 <Button Background="#1F1F1F" Click="VseClick">
                     <TextBlock
                         FontSize="16"
@@ -70,7 +70,7 @@
                         FontSize="16"
                         FontWeight="Bold"
                         Foreground="White"
-                        Text="Футболки" Height="34" />
+                        Text="Футболки" />
                 </Button>
 
                 <Button
@@ -81,7 +81,7 @@
                         FontSize="16"
                         FontWeight="Bold"
                         Foreground="White"
-                        Text="Рубашки" Height="32" />
+                        Text="Рубашки" />
                 </Button>
 
                 <Button
@@ -92,13 +92,13 @@
                         FontSize="16"
                         FontWeight="Bold"
                         Foreground="White"
-                        Text="Джинсы" Height="32" />
+                        Text="Джинсы" />
                 </Button>
 
                 <Button
                     Margin="0,-15,0,0"
                     Background="#1F1F1F"
-                    Click="KurClick" Height="27">
+                    Click="KurClick">
                     <TextBlock
                         FontSize="16"
                         FontWeight="Bold"
@@ -114,7 +114,7 @@
                         FontSize="16"
                         FontWeight="Bold"
                         Foreground="White"
-                        Text="Обувь" Height="20" />
+                        Text="Обувь" />
                 </Button>
 
             </ListBox>
