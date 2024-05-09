@@ -9,10 +9,10 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Title="Главная страница"
-        Height="665" Width="1200">
-    <Grid>
-        <ScrollViewer VerticalAlignment="Center">
-            <Grid Margin="0,0,0,5">
+        Height="675" Width="1200">
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        <ScrollViewer VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+            <Grid Margin="0,0,0,5" Height="2790">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="464*"/>
                     <RowDefinition Height="265*"/>
@@ -22,11 +22,11 @@
                     <ColumnDefinition Width="251*"/>
                     <ColumnDefinition Width="949*"/>
                 </Grid.ColumnDefinitions>
-                <Button Background="White" BorderBrush="White" Content="Личный кабинет" Margin="81,20,0,0" VerticalAlignment="Top" Grid.Column="2" Click="Lich_Click" FontSize="14" Height="30"/>
-                <Button Background="White" BorderBrush="White" Content="О нас" Margin="21,20,0,0" VerticalAlignment="Top" Grid.Column="2" FontSize="14" Width="60" Height="30"/>
-                <Button Background="White" BorderBrush="White" Content="Мужское" Margin="17,20,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontFamily="Segoe UI" Click="Muzh_Click" RenderTransformOrigin="0.516,0.653" FontSize="14" Width="83"/>
-                <Button Background="White" BorderBrush="White" Content="Женское" Margin="100,20,0,0" VerticalAlignment="Top" Grid.Column="1" Click="Zhen_Click" FontSize="14" Width="80"/>
-                <Button Background="White" BorderBrush="White" Content="Аксесуары" Margin="180,20,0,0" VerticalAlignment="Top" Grid.Column="1" FontSize="14" Grid.ColumnSpan="2" Width="92"/>
+                <Button Background="White" BorderBrush="White" Content="Личный кабинет" Margin="103,21,0,0" VerticalAlignment="Top" Grid.Column="2" Click="Lich_Click" FontSize="14" Height="30"/>
+                <Button Background="White" BorderBrush="White" Content="О нас" Margin="43,20,0,0" VerticalAlignment="Top" Grid.Column="2" FontSize="14" Height="32"/>
+                <Button Background="White" BorderBrush="White" Content="Мужское" Margin="30,18,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontFamily="Segoe UI" Click="Muzh_Click" RenderTransformOrigin="0.516,0.653" FontSize="14" Width="84"/>
+                <Button Background="White" BorderBrush="White" Content="Женское" Margin="116,20,0,0" VerticalAlignment="Top" Grid.Column="1" Click="Zhen_Click" FontSize="14" Width="80"/>
+                <Button Background="White" BorderBrush="White" Content="Аксесуары" Margin="198,20,0,0" VerticalAlignment="Top" Grid.Column="1" FontSize="14" Grid.ColumnSpan="2" Height="30"/>
                 <Image Source="/Resources/Front.jpg" HorizontalAlignment="Left" Height="543" Margin="29,50,0,0" VerticalAlignment="Top" Width="1140" Grid.Column="1" Grid.ColumnSpan="2"/>
                 <Image Source="/Resources/ShoppingPin.jpg" Grid.Column="2" HorizontalAlignment="Left" Height="40" Margin="843,9,0,0" VerticalAlignment="Top" Width="43"/>
                 <Image Source="/Resources/Exit.png" Grid.Column="2" x:Name="cab" HorizontalAlignment="Left" Height="36" Margin="883,11,0,0" VerticalAlignment="Top" Width="38"/>
@@ -36,10 +36,22 @@
                 <Image Source="/Resources/Logo2.png" Grid.Column="2" HorizontalAlignment="Left" Height="74" Margin="858,532,0,0" VerticalAlignment="Top" Width="76"/>
                 <Image Source="/Resources/Carhartt.jpg" HorizontalAlignment="Left" Height="420" Margin="377,626,0,0" VerticalAlignment="Top" Width="542" Grid.Column="2"/>
                 <Image Source="/Resources/CP_Company.jpg" HorizontalAlignment="Left" Height="420" Margin="31,626,0,0" VerticalAlignment="Top" Width="544" Grid.ColumnSpan="3"/>
-                <TextBlock HorizontalAlignment="Left" Margin="31,13,0,0" TextWrapping="Wrap" Text="На протяжении более 45 лет компания оставалась признанным лидером, предлагая инновационные интерпретации архивных моделей, в которых стиль милитари, спортивный и рабочий стили сочетаются со специально разработанными, суперсовременными итальянскими тканями." VerticalAlignment="Top" Height="108" Width="548" FontSize="16" Grid.ColumnSpan="3" Grid.Row="1"/>
+                <TextBlock HorizontalAlignment="Left" Margin="30,1107,0,0" TextWrapping="Wrap" Text="На протяжении более 45 лет компания оставалась признанным лидером, предлагая инновационные интерпретации архивных моделей, в которых стиль милитари, спортивный и рабочий стили сочетаются со специально разработанными, суперсовременными итальянскими тканями." VerticalAlignment="Top" Height="108" Width="548" FontSize="16" Grid.ColumnSpan="3"/>
                 <TextBlock HorizontalAlignment="Left" Margin="30,1063,0,0" TextWrapping="Wrap" Text="C.P. COMPANY" VerticalAlignment="Top" Height="40" Width="216" FontSize="29" FontWeight="Bold" Grid.ColumnSpan="2"/>
                 <TextBlock HorizontalAlignment="Left" Margin="377,1062,0,0" TextWrapping="Wrap" Text="CARHARTT WIP" VerticalAlignment="Top" Height="40" Width="227" FontSize="29" FontWeight="Bold" Grid.Column="2"/>
-                <TextBlock HorizontalAlignment="Left" Margin="378,13,0,0" TextWrapping="Wrap" Text="Европейское подразделение американской компании Carhartt, являющейся мастодонтом рабочей одежды с конца 19-го века." VerticalAlignment="Top" Height="50" Width="537" FontSize="16" Grid.Column="2" Grid.Row="1"/>
+                <TextBlock HorizontalAlignment="Left" Margin="376,1107,0,0" TextWrapping="Wrap" Text="Европейское подразделение американской компании Carhartt, являющейся мастодонтом рабочей одежды с конца 19-го века." VerticalAlignment="Top" Height="48" Width="502" FontSize="16" Grid.Column="2"/>
+                <Image Source="/Resources/C.9.3Photo.jpg" HorizontalAlignment="Left" Height="420" Margin="29,1230,0,0" VerticalAlignment="Top" Width="544" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+                <Image Source="/Resources/Paura.jpg" HorizontalAlignment="Left" Height="420" Margin="378,1230,0,0" VerticalAlignment="Top" Width="542" Grid.Column="2" Grid.RowSpan="2"/>
+                <TextBlock HorizontalAlignment="Left" Margin="30,1665,0,0" TextWrapping="Wrap" Text="C. 9. 3" VerticalAlignment="Top" Height="40" Width="96" FontSize="29" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                <TextBlock HorizontalAlignment="Left" Margin="378,1665,0,0" TextWrapping="Wrap" Text="PAURA" VerticalAlignment="Top" Height="40" Width="105" FontSize="29" FontWeight="Bold" Grid.Column="2"/>
+                <TextBlock HorizontalAlignment="Left" Margin="30,1710,0,0" TextWrapping="Wrap" Text="Основанный в 2014 году, итальянский бренд C.9.3 подружил тейлоринг и рабочую одежду с повседневностью. Одна за другой, коллекции зарекомендовали себя, благодаря постоянным исследованиям, инновациям и, прежде всего, реальному вниманию к сегодняшним потребностям. В частности, выбору материалов премиум-класса и превосходному портному мастерству Made in Italy." VerticalAlignment="Top" Height="108" Width="540" FontSize="16" Grid.ColumnSpan="3"/>
+                <TextBlock HorizontalAlignment="Left" Margin="379,1710,0,0" TextWrapping="Wrap" Text="Это материализация бунтарской и романтической души. Итальянский high-end бренд основан в 2015 году Данило Паура. Paura di Danilo Paura представляет собой интроспективный взгляд через необычную линзу дизайнера, углублённого в свой хаотичный и многогранный гардероб." VerticalAlignment="Top" Height="120" Width="539" FontSize="16" Grid.Column="2"/>
+                <Image Source="/Resources/Goldwin.jpg" HorizontalAlignment="Left" Height="420" Margin="30,1855,0,0" VerticalAlignment="Top" Width="544" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+                <Image Source="/Resources/Mizuno.jpg" HorizontalAlignment="Left" Height="420" Margin="378,1854,0,0" VerticalAlignment="Top" Width="542" Grid.Column="2" Grid.RowSpan="2"/>
+                <TextBlock HorizontalAlignment="Left" Margin="30,509,0,0" TextWrapping="Wrap" Text="GOLDWIN" VerticalAlignment="Top" Height="40" Width="161" FontSize="29" FontWeight="Bold" Grid.ColumnSpan="2" Grid.Row="1"/>
+                <TextBlock HorizontalAlignment="Left" Margin="377,509,0,0" TextWrapping="Wrap" Text="MIZUNO" VerticalAlignment="Top" Height="40" Width="134" FontSize="29" FontWeight="Bold" Grid.Column="2" Grid.Row="1"/>
+                <TextBlock HorizontalAlignment="Left" Margin="30,551,0,0" TextWrapping="Wrap" Text="Международный бренд с японским происхождением выпускает техническую одежду, подчёркивая непроходящую близость Goldwin к природе и её нетронутой красоте." VerticalAlignment="Top" Height="69" Width="540" FontSize="16" Grid.ColumnSpan="3" Grid.Row="1"/>
+                <TextBlock HorizontalAlignment="Left" Margin="380,549,0,0" TextWrapping="Wrap" Text="Инновационный бренд sneaker индустрии, Mizuno, имеет за своими плечами более чем 100-летнюю историю создания технологичных и передовых продуктов." VerticalAlignment="Top" Height="75" Width="542" FontSize="16" Grid.Column="2" Grid.Row="1"/>
             </Grid>
         </ScrollViewer>
     </Grid>

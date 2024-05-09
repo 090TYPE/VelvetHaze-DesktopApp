@@ -13,13 +13,13 @@
         MinWidth="300"
         Title="Авторизация" Height="470" Width="370">
     <Grid>
-        <modern:SimpleStackPanel VerticalAlignment="Center" Spacing="30" Margin="20 0">
+        <modern:SimpleStackPanel VerticalAlignment="Top" Spacing="30" Margin="20,144,20,0" Height="270">
             <ui:TextBox BorderBrush="#1F1F1F" PlaceholderText="Введите логин" FontSize="16" Name="LoginTextBox"/>
-           <ui:PasswordBox BorderBrush="#1F1F1F" PlaceholderText="Введите пароль" FontSize="16" Margin="0 15 0 0" ClearButtonEnabled="False" PasswordChar="*" Name="PasswordTextBox"/>
-            <ui:Button Background="#1F1F1F" Content="Авторизироваться" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="AuthButton" VerticalAlignment="Top" Click="VhodButton_Click"/>
-            <ui:Button Background="#1F1F1F" Content="Регистрация"  HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="RegButton" Margin="0 -15 0 0" Click="RegButton_Click"/>
-            <ui:Button Background="#1F1F1F" Content="Выход" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="ExitButton" Margin="0 -15 0 0" Click="ExitButton_Click"/>
+            <ui:PasswordBox BorderBrush="#1F1F1F" PlaceholderText="Введите пароль" FontSize="16" Margin="0 15 0 0" ClearButtonEnabled="False" PasswordChar="*" Name="PasswordTextBox"/>
+            <ui:Button  Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Content="Авторизироваться" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="AuthButton" VerticalAlignment="Top" Click="VhodButton_Click" Foreground="Black"/>
+            <ui:Button  Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Content="Регистрация"  HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="RegButton" Margin="0 -15 0 0" Click="RegButton_Click" Foreground="Black"/>
+            <ui:Button  Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Content="Выход" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="ExitButton" Margin="0 -15 0 0" Click="ExitButton_Click" Foreground="Black"/>
         </modern:SimpleStackPanel>
-        <Image Margin="110,10,110,355" Source="/Resources/Logo1.png" Stretch="Fill" Cursor=""/>
+        <Image Margin="71,3,70,313" Source="/Resources/Logo1.png" Stretch="Fill" Cursor=""/>
     </Grid>
 </Window>

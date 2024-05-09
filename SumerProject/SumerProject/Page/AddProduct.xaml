@@ -11,8 +11,9 @@
         Title="AdminPage" Height="620" Width="626">
     <Grid Margin="15,100,10,1">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="59*"/>
-            <ColumnDefinition Width="85*"/>
+            <ColumnDefinition Width="246*"/>
+            <ColumnDefinition Width="71*"/>
+            <ColumnDefinition Width="284*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <!-- Добавляем строку для изображения -->
@@ -37,27 +38,27 @@
         <!-- Элемент Image для отображения изображения -->
 
         <!-- Модель -->
-        <Label Grid.Row="1" Content="Название:" Grid.ColumnSpan="2" Margin="0,-3,0,45" Grid.RowSpan="2" FontWeight="Bold"/>
-        <TextBox Grid.Row="2" x:Name="txtName" Margin="0,5,9,6" Grid.ColumnSpan="2" Background="#FFFBD6"/>
+        <Label Grid.Row="1" Content="Название:" Grid.ColumnSpan="3" Margin="0,-3,0,45" Grid.RowSpan="2" FontWeight="Bold"/>
+        <TextBox Grid.Row="2" x:Name="txtName" Margin="0,5,9,6" Grid.ColumnSpan="3" Background="#FFFBD6"/>
 
         <!-- Год -->
-        <Label Grid.Row="3" Content="Цвет:" Grid.ColumnSpan="2" FontWeight="Bold"/>
-        <TextBox Grid.Row="4" x:Name="txtColor" Margin="1,1,9,1" Grid.ColumnSpan="2" Background="#FFFBD6"/>
+        <Label Grid.Row="3" Content="Цвет:" Grid.ColumnSpan="3" FontWeight="Bold"/>
+        <TextBox Grid.Row="4" x:Name="txtColor" Margin="1,1,9,1" Grid.ColumnSpan="3" Background="#FFFBD6"/>
 
         <!-- Цвет -->
-        <Label Grid.Row="4" Content="Описание:" Grid.ColumnSpan="2" Margin="0,42,0,42" Grid.RowSpan="3" FontWeight="Bold"/>
-        <TextBox Grid.Row="6" x:Name="txtDescriptionProduct" Margin="1,9,9,1" Grid.ColumnSpan="2" Background="#FFFBD6"/>
+        <Label Grid.Row="4" Content="Описание:" Grid.ColumnSpan="3" Margin="0,42,0,42" Grid.RowSpan="3" FontWeight="Bold"/>
+        <TextBox Grid.Row="6" x:Name="txtDescriptionProduct" Margin="1,9,9,1" Grid.ColumnSpan="3" Background="#FFFBD6"/>
 
         <!-- Цена -->
-        <Label Grid.Row="10" Content="Цена:" Grid.ColumnSpan="2" Margin="0,42,0,42" Grid.RowSpan="3" FontWeight="Bold"/>
-        <TextBox Grid.Row="12" x:Name="txtPrice" Margin="1,9,9,1" Grid.ColumnSpan="2" Background="#FFFBD6"/>
-        <Label Grid.Row="7" Content="Гендер:" Grid.ColumnSpan="2" FontWeight="Bold"/>
+        <Label Grid.Row="10" Content="Цена:" Grid.ColumnSpan="3" Margin="0,42,0,42" Grid.RowSpan="3" FontWeight="Bold"/>
+        <TextBox Grid.Row="12" x:Name="txtPrice" Margin="1,9,9,1" Grid.ColumnSpan="3" Background="#FFFBD6"/>
+        <Label Grid.Row="7" Content="Гендер:" Grid.ColumnSpan="3" FontWeight="Bold"/>
         <ComboBox Grid.Row="8" x:Name="cbGender" Margin="0,3,0,0" Background="#FFFBD6" Width="145">
             <ComboBoxItem Content="Мужской" />
             <ComboBoxItem Content="Женский"/>
             <ComboBoxItem Content="Другой"/>
         </ComboBox>
-        <Label Grid.Row="8" Content="Категория:" Grid.ColumnSpan="2" Margin="-1,39,1,3" Grid.RowSpan="2" FontWeight="Bold"/>
+        <Label Grid.Row="8" Content="Категория:" Grid.ColumnSpan="3" Margin="-1,39,1,3" Grid.RowSpan="2" FontWeight="Bold"/>
         <ComboBox Grid.Row="10" x:Name="cbCategory" Margin="0,1,0,0" Background="#FFFBD6" Width="145">
             <ComboBoxItem Content="Футболка"/>
             <ComboBoxItem Content="Рубашка"/>
@@ -68,8 +69,8 @@
             <ComboBoxItem Content="Платье"/>
         </ComboBox>
         <!-- Кнопка загрузки изображения -->
-        <ui:Button Grid.Row="14" Content="Выбрать изображение" Click="UploadImage_Click" Margin="219,24,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Height="39"/>
-        <ui:Button Grid.Row="14" Content="Назад" Click="Back_Click" Margin="219,73,0,0" VerticalAlignment="Top" Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Width="180" Grid.ColumnSpan="2" Height="39"/>
-        <Image Source="/Resources/Logo1.png" HorizontalAlignment="Left" Height="128" Margin="196,-104,0,0" Grid.RowSpan="3" VerticalAlignment="Top" Width="214" Grid.ColumnSpan="2"/>
+        <ui:Button Grid.Row="14" Content="Выбрать изображение" Click="UploadImage_Click" Margin="219,24,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Height="39"/>
+        <ui:Button Grid.Row="14" Content="Назад" Click="Back_Click" Margin="219,73,0,0" VerticalAlignment="Top" Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Width="180" Grid.ColumnSpan="3" Height="39"/>
+        <Image Source="/Resources/Logo1.png" HorizontalAlignment="Left" Height="133" Margin="195,-113,0,0" Grid.RowSpan="3" VerticalAlignment="Top" Width="218" Grid.ColumnSpan="3"/>
     </Grid>
 </Window>

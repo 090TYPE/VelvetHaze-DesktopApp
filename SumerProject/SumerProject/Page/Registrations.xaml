@@ -12,16 +12,20 @@
         MinHeight="360"
         MinWidth="300"
         Title="Регистрация" 
-        Height="680" 
+        Height="744" 
         Width="370">
-    <Grid Margin="0,0,0,-6">
-        <modern:SimpleStackPanel VerticalAlignment="Center" Spacing="30" Margin="20 0">
+    <Grid Margin="0,39,4,-3">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="101*"/>
+            <ColumnDefinition Width="82*"/>
+        </Grid.ColumnDefinitions>
+        <modern:SimpleStackPanel VerticalAlignment="Top" Spacing="30" Margin="20,144,20,0" Grid.ColumnSpan="2" Height="358">
             <ui:TextBox BorderBrush="#1F1F1F" PlaceholderText="Введите логин" FontSize="16" x:Name="LoginTextBox"/>
             <ui:TextBox BorderBrush="#1F1F1F" PlaceholderText="Введите имя" FontSize="16" x:Name="FirstNameTextBox"/>
             <ui:TextBox BorderBrush="#1F1F1F" PlaceholderText="Введите фамилию" FontSize="16" x:Name="LastNameTextBox"/>
             <ui:TextBox BorderBrush="#1F1F1F" PlaceholderText="Введите номер телефона" FontSize="16" x:Name="NumberTextBox"/>
-            <ui:PasswordBox BorderBrush="#1F1F1F" PlaceholderText="Введите пароль" FontSize="16" ClearButtonEnabled="False" PasswordChar="*" x:Name="PasswordTextBox" Height="30"/>
-            <ui:PasswordBox BorderBrush="#1F1F1F" PlaceholderText="Введите пароль" FontSize="16" ClearButtonEnabled="False" PasswordChar="*" x:Name="PasswordTextBox2" Height="33" RenderTransformOrigin="0.5,0.5">
+            <ui:PasswordBox BorderBrush="#1F1F1F" PlaceholderText="Введите пароль" FontSize="16" ClearButtonEnabled="False" PasswordChar="*" x:Name="PasswordTextBox" Height="30" Margin="2,0,-2,0" VerticalAlignment="Top"/>
+            <ui:PasswordBox BorderBrush="#1F1F1F" PlaceholderText="Повторите пароль" FontSize="16" ClearButtonEnabled="False" PasswordChar="*" x:Name="PasswordTextBox2" Height="33" RenderTransformOrigin="0.5,0.5" Background="#B3FFFFFF">
                 <ui:PasswordBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleY="1"/>
@@ -31,10 +35,10 @@
                     </TransformGroup>
                 </ui:PasswordBox.RenderTransform>
             </ui:PasswordBox>
-            <ui:Button Content="Добавить фото" Background="#1F1F1F" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="PicButton" Click="Pic_Click"/>
-            <ui:Button Content="Регистрация" Background="#1F1F1F" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="RegButton" Margin="0 -15 0 0" Click="RegButton_Click"/>
-            <ui:Button Content="Назад" Background="#1F1F1F" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="BackButton" Margin="0 -15 0 0" Click="BackButton_Click"/>
         </modern:SimpleStackPanel>
-        <Image Margin="103,-1,103,588" Source="/Resources/Logo1.png" Stretch="Fill" Cursor=""/>
+        <Image Margin="40,-24,40,537" Source="/Resources/Logo1.png" Stretch="Fill" Cursor="" Grid.ColumnSpan="2"/>
+        <ui:Button Content="Назад"  Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="BackButton" Margin="20,627,20,0" Click="BackButton_Click" Foreground="Black" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <ui:Button Content="Регистрация"  Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="RegButton" Margin="20,581,20,0" Click="RegButton_Click" Foreground="Black" Grid.ColumnSpan="2" VerticalAlignment="Top"/>
+        <ui:Button Content="Добавить фото"  Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" HorizontalAlignment="Stretch" Appearance="Dark" FontSize="19" x:Name="PicButton" Click="Pic_Click" Foreground="Black" Grid.ColumnSpan="2" Margin="20,534,20,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
