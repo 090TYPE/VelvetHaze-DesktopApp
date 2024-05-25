@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "YU9CwgMXR4kB/mOe4lhrd3gZB+zijq6/KRBUrYnF0ErtUeZ2FwRCWJhyRUxdHG7QSd9TK5FGW78aPg2Futg7lg==",
+  "dgSpecHash": "ojsVP4jpyBI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rabbi\\OneDrive\\Рабочий стол\\project_C.Sharp-main\\VelvetHaze-DesktopApp-main\\SumerProject\\SumerProject\\SumerProject.csproj",
+  "projectFilePath": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\SumerProject.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rabbi\\.nuget\\packages\\easycaptcha.wpf\\0.9.0.3\\easycaptcha.wpf.0.9.0.3.nupkg.sha512",
-    "C:\\Users\\rabbi\\.nuget\\packages\\entityframework\\6.5.0-preview2-24180-01\\entityframework.6.5.0-preview2-24180-01.nupkg.sha512",
-    "C:\\Users\\rabbi\\.nuget\\packages\\entityframework.ru\\6.2.0\\entityframework.ru.6.2.0.nupkg.sha512",
-    "C:\\Users\\rabbi\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.26031-preview\\microsoft.windows.sdk.contracts.10.0.26031-preview.nupkg.sha512",
-    "C:\\Users\\rabbi\\.nuget\\packages\\modernwpfui\\0.9.7-preview.2\\modernwpfui.0.9.7-preview.2.nupkg.sha512",
-    "C:\\Users\\rabbi\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
-    "C:\\Users\\rabbi\\.nuget\\packages\\system.runtime.windowsruntime\\5.0.0-preview.5.20278.1\\system.runtime.windowsruntime.5.0.0-preview.5.20278.1.nupkg.sha512",
-    "C:\\Users\\rabbi\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\5.0.0-preview.5.20278.1\\system.runtime.windowsruntime.ui.xaml.5.0.0-preview.5.20278.1.nupkg.sha512",
-    "C:\\Users\\rabbi\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
-    "C:\\Users\\rabbi\\.nuget\\packages\\wpf-ui\\3.0.4\\wpf-ui.3.0.4.nupkg.sha512"
+    "C:\\Users\\090\\.nuget\\packages\\easycaptcha.wpf\\0.9.0.3\\easycaptcha.wpf.0.9.0.3.nupkg.sha512",
+    "C:\\Users\\090\\.nuget\\packages\\entityframework\\6.5.0-preview2-24180-01\\entityframework.6.5.0-preview2-24180-01.nupkg.sha512",
+    "C:\\Users\\090\\.nuget\\packages\\entityframework.ru\\6.2.0\\entityframework.ru.6.2.0.nupkg.sha512",
+    "C:\\Users\\090\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.26031-preview\\microsoft.windows.sdk.contracts.10.0.26031-preview.nupkg.sha512",
+    "C:\\Users\\090\\.nuget\\packages\\modernwpfui\\0.9.7-preview.2\\modernwpfui.0.9.7-preview.2.nupkg.sha512",
+    "C:\\Users\\090\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "C:\\Users\\090\\.nuget\\packages\\system.runtime.windowsruntime\\5.0.0-preview.5.20278.1\\system.runtime.windowsruntime.5.0.0-preview.5.20278.1.nupkg.sha512",
+    "C:\\Users\\090\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\5.0.0-preview.5.20278.1\\system.runtime.windowsruntime.ui.xaml.5.0.0-preview.5.20278.1.nupkg.sha512",
+    "C:\\Users\\090\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\090\\.nuget\\packages\\wpf-ui\\3.0.4\\wpf-ui.3.0.4.nupkg.sha512"
   ],
   "logs": [
     {

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rabbi\\OneDrive\\Рабочий стол\\project_C.Sharp-main\\VelvetHaze-DesktopApp-main\\SumerProject\\SumerProject\\SumerProject.csproj": {}
+    "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\SumerProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rabbi\\OneDrive\\Рабочий стол\\project_C.Sharp-main\\VelvetHaze-DesktopApp-main\\SumerProject\\SumerProject\\SumerProject.csproj": {
+    "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\SumerProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rabbi\\OneDrive\\Рабочий стол\\project_C.Sharp-main\\VelvetHaze-DesktopApp-main\\SumerProject\\SumerProject\\SumerProject.csproj",
+        "projectUniqueName": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\SumerProject.csproj",
         "projectName": "SumerProject",
-        "projectPath": "C:\\Users\\rabbi\\OneDrive\\Рабочий стол\\project_C.Sharp-main\\VelvetHaze-DesktopApp-main\\SumerProject\\SumerProject\\SumerProject.csproj",
-        "packagesPath": "C:\\Users\\rabbi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rabbi\\OneDrive\\Рабочий стол\\project_C.Sharp-main\\VelvetHaze-DesktopApp-main\\SumerProject\\SumerProject\\obj\\",
+        "projectPath": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\SumerProject.csproj",
+        "packagesPath": "C:\\Users\\090\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rabbi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\090\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

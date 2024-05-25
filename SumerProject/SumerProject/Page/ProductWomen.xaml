@@ -36,7 +36,7 @@
             <TextBlock Text="Размер:" FontSize="12"  FontWeight="Bold"/>
             <ComboBox x:Name="SizeSelector" Margin="0,5,0,0" DisplayMemberPath="Size" SelectedValuePath="ID_Size"/>
         </StackPanel>
-        <ui:Button Grid.Column="1" Grid.Row="4" Content="Купить" Margin="20,0,0,0" Width="220" Click="AddCart_Click" Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Height="32"/>
+        <ui:Button Grid.Column="1" Grid.Row="4" Content="Добавить в корзину" Margin="20,0,0,0" Width="220" Click="AddCart_Click" Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Height="32"/>
         <Image Source="/Resources/Logo1.png" Grid.Column="1" Margin="373,19,-12,-23" Grid.Row="4"/>
     </Grid>
 </Window>

@@ -1,28 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using SumerProject.Assets;
+using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace SumerProject.Page
 {
-    /// <summary>
-    /// Логика взаимодействия для CartMen.xaml
-    /// </summary>
-    public partial class CartMen : Window
+    public partial class CartMen : Window, INotifyPropertyChanged
     {
-        private ObservableCollection<ProductsMen> _items = new ObservableCollection<ProductsMen>();
-        public ObservableCollection<ProductsMen> Items
+        private ObservableCollection<CartProduct> _items = new ObservableCollection<CartProduct>();
+        public ObservableCollection<CartProduct> Items
         {
             get { return _items; }
             set
@@ -42,12 +30,19 @@ namespace SumerProject.Page
         public CartMen()
         {
             InitializeComponent();
-            DataContext = this; // Установите DataContext в конструкторе
+            DataContext = this;
         }
 
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
-            Items.Clear(); // Очистить корзину
+            Items.Clear();
+        }
+
+        private void Order_Click(object sender, RoutedEventArgs e)
+        {
+            OrderRegistration orderWindow = new OrderRegistration(Items.ToList());
+            orderWindow.Show();
+            this.Close();
         }
     }
 }

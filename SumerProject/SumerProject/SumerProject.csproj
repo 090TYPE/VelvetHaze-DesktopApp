@@ -67,6 +67,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CartProduct.cs" />
     <Compile Include="Assets\GlobalUser.cs" />
     <Compile Include="Assets\RelayCommand.cs" />
     <Compile Include="DataBase\Model3.Context.cs">

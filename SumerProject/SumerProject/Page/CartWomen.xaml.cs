@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SumerProject.Assets;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -21,8 +22,8 @@ namespace SumerProject.Page
     /// </summary>
     public partial class CartWomen : Window, INotifyPropertyChanged
     {
-        private ObservableCollection<ProductsWomen> _items = new ObservableCollection<ProductsWomen>();
-        public ObservableCollection<ProductsWomen> Items
+        private ObservableCollection<CartProduct> _items = new ObservableCollection<CartProduct>();
+        public ObservableCollection<CartProduct> Items
         {
             get { return _items; }
             set
@@ -48,6 +49,12 @@ namespace SumerProject.Page
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
             Items.Clear(); // Очистить корзину
+        }
+        private void Order_Click(object sender, RoutedEventArgs e)
+        {
+            OrderRegistration orderWindow = new OrderRegistration(Items.ToList());
+            orderWindow.Show();
+            this.Close();
         }
     }
 }

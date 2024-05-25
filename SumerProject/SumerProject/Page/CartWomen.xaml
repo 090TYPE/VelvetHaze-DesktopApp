@@ -28,7 +28,7 @@
         <Button
             Margin="212,0,0,10"
             VerticalAlignment="Bottom"
-            Click="Delete_Click"
+            Click="Order_Click"
             Content="Оформить заказ"  Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Width="148"/>
     </Grid>
 </Window>

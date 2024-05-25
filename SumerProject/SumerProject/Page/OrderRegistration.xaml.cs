@@ -1,5 +1,7 @@
-﻿using System;
+﻿using SumerProject.DataBase;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +13,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using SumerProject.Assets;
 
 namespace SumerProject.Page
 {
@@ -19,9 +22,13 @@ namespace SumerProject.Page
     /// </summary>
     public partial class OrderRegistration : Window
     {
-        public OrderRegistration()
-        {
+        public ObservableCollection<CartProduct> Products { get; set; }
 
+        public OrderRegistration(List<CartProduct> cartProducts)
+        {
+            InitializeComponent();
+            Products = new ObservableCollection<CartProduct>(cartProducts);
+            DataContext = this;
         }
     }
 }

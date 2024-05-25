@@ -1,17 +1,12 @@
-﻿using SumerProject.DataBase;
+﻿using SumerProject.Assets;
+using SumerProject.DataBase;
 using System;
-using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace SumerProject.Page
 {
@@ -19,7 +14,7 @@ namespace SumerProject.Page
     {
         private ProductsMen _selectedProduct;
         private TestEntities5 _context;
-
+        public ImageSource ProductImage { get; set; }
         public ProductMen(ProductsMen selectedProduct)
         {
             InitializeComponent();
@@ -35,8 +30,34 @@ namespace SumerProject.Page
             Name2.Text = _selectedProduct.Coast.ToString() + " ₽";
             Name3.Text = _selectedProduct.Color;
             Opis.Text = _selectedProduct.DescriptionProduct;
-            ImageControl.Source = _selectedProduct.ImageRes; // Make sure you convert the byte[] to an ImageSource
+            ImageControl.Source = _selectedProduct.ImageRes;
         }
+
+        private byte[] BitmapImageToByteArray(BitmapImage bitmapImage)
+        {
+            byte[] data;
+            JpegBitmapEncoder encoder = new JpegBitmapEncoder();
+            encoder.Frames.Add(BitmapFrame.Create(bitmapImage));
+            using (MemoryStream ms = new MemoryStream())
+            {
+                encoder.Save(ms);
+                data = ms.ToArray();
+            }
+            return data;
+        }
+        private byte[] ConvertImageToByteArray(BitmapImage image)
+        {
+            byte[] imageData;
+            JpegBitmapEncoder encoder = new JpegBitmapEncoder();
+            encoder.Frames.Add(BitmapFrame.Create(image));
+            using (MemoryStream ms = new MemoryStream())
+            {
+                encoder.Save(ms);
+                imageData = ms.ToArray();
+            }
+            return imageData;
+        }
+
         private void AddCart_Click(object sender, RoutedEventArgs e)
         {
             ProductsMen selectedProduct = _selectedProduct;
@@ -49,8 +70,19 @@ namespace SumerProject.Page
                 cartWindow = new CartMen();
                 cartWindow.Show();
             }
-            cartWindow.Items.Add(selectedProduct);
+
+            // Создание объекта CartProduct
+            var cartProduct = new CartProduct
+            {
+                NameProduct = selectedProduct.NameProduct,
+                Coast = (int)selectedProduct.Coast,
+                SelectedSize = selectedProduct.SelectedSize,
+                Image = ConvertImageToByteArray(_selectedProduct.ImageRes)
+            };
+
+            cartWindow.Items.Add(cartProduct);
         }
+
         private void LoadSizes()
         {
             var sizes = _context.Sizes

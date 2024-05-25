@@ -887,3 +887,5 @@ C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\VelvetHaze-
 C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\VelvetHaze-DesktopApp-main\SumerProject\SumerProject\obj\Debug\SumerProject.pdb
 C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\VelvetHaze-DesktopApp-main\SumerProject\SumerProject\obj\Debug\Page\OrderRegistration.baml
 C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\VelvetHaze-DesktopApp-main\SumerProject\SumerProject\obj\Debug\Page\OrderRegistration.g.cs
+C:\Users\090\Documents\GitHub\project_C.Sharp\SumerProject\SumerProject\obj\Debug\Page\OrderRegistration.baml
+C:\Users\090\Documents\GitHub\project_C.Sharp\SumerProject\SumerProject\obj\Debug\Page\OrderRegistration.g.cs
