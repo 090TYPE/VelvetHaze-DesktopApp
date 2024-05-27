@@ -179,6 +179,13 @@ namespace SumerProject.Page
         {
             LoadData("Обувь");
         }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            MainPage mainPage = new MainPage();
+            mainPage.Show();
+            this.Hide();
+        }
     }
 
     // View model class to hold product display properties

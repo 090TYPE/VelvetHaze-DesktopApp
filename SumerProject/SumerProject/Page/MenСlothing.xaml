@@ -174,8 +174,10 @@
         </Grid>
         <ListView
             Name="ProductList"
+            Grid.RowSpan="2"
+            Grid.Column="1"
             Margin="0,130,35,83"
-            ItemsSource="{Binding Products}" Grid.Column="1" Grid.RowSpan="2">
+            ItemsSource="{Binding Products}">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <UniformGrid Columns="2" />
@@ -212,5 +214,21 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Button
+            Grid.Column="1"
+            Margin="0,10,10,0"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Click="OpenCart_Click"
+            Content="Open Cart" />
+
+        <ui:Button
+            Grid.Row="1"
+            Width="96"
+            Height="49"
+            Margin="29,36,0,0"
+            VerticalAlignment="Top"
+            Click="Back_Click"
+            Content="Назад" />
     </Grid>
 </Window>

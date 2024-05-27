@@ -40,8 +40,15 @@ namespace SumerProject.Page
 
         private void Order_Click(object sender, RoutedEventArgs e)
         {
-            OrderRegistration orderWindow = new OrderRegistration(Items.ToList());
-            orderWindow.Show();
+            if (OrderRegistration.CurrentOrderWindow != null)
+            {
+                OrderRegistration.CurrentOrderWindow.AddProducts(Items.ToList());
+            }
+            else
+            {
+                OrderRegistration orderWindow = new OrderRegistration(Items.ToList());
+                orderWindow.Show();
+            }
             this.Close();
         }
     }

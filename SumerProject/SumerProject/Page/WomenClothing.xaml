@@ -217,5 +217,13 @@
             VerticalAlignment="Top"
             Click="OpenCart_Click"
             Content="Open Cart" />
+        <ui:Button
+            Grid.Row="1"
+            Width="96"
+            Height="49"
+            Margin="29,36,0,0"
+            VerticalAlignment="Top"
+            Click="Back_Click"
+            Content="Назад" />
     </Grid>
 </Window>

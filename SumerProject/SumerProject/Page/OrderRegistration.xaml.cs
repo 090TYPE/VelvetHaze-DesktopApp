@@ -22,6 +22,7 @@ namespace SumerProject.Page
     /// </summary>
     public partial class OrderRegistration : Window
     {
+        public static OrderRegistration CurrentOrderWindow { get; private set; }
         public ObservableCollection<CartProduct> Products { get; set; }
 
         public OrderRegistration(List<CartProduct> cartProducts)
@@ -29,6 +30,21 @@ namespace SumerProject.Page
             InitializeComponent();
             Products = new ObservableCollection<CartProduct>(cartProducts);
             DataContext = this;
+            CurrentOrderWindow = this;
+        }
+
+        public void AddProducts(List<CartProduct> cartProducts)
+        {
+            foreach (var product in cartProducts)
+            {
+                Products.Add(product);
+            }
+        }
+
+        protected override void OnClosed(EventArgs e)
+        {
+            base.OnClosed(e);
+            CurrentOrderWindow = null;
         }
     }
 }
