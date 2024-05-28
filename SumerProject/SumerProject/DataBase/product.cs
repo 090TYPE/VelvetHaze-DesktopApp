@@ -17,7 +17,7 @@ namespace SumerProject.DataBase
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public product()
         {
-            this.Orders = new HashSet<Orders>();
+            this.OrderItems = new HashSet<OrderItems>();
             this.Sizes = new HashSet<Sizes>();
         }
     
@@ -31,7 +31,7 @@ namespace SumerProject.DataBase
         public string Category { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Orders> Orders { get; set; }
+        public virtual ICollection<OrderItems> OrderItems { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Sizes> Sizes { get; set; }
     }

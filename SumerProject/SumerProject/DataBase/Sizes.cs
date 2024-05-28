@@ -14,18 +14,10 @@ namespace SumerProject.DataBase
     
     public partial class Sizes
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Sizes()
-        {
-            this.Orders = new HashSet<Orders>();
-        }
-    
         public int ID_Size { get; set; }
         public Nullable<int> ID_Product { get; set; }
         public string Size { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Orders> Orders { get; set; }
         public virtual product product { get; set; }
     }
 }

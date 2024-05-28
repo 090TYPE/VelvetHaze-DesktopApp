@@ -11,6 +11,27 @@
     ResizeMode="NoResize"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
+    <Window.Resources>
+        <Style x:Key="WatermarkTextBoxStyle" TargetType="TextBox">
+            <Style.Triggers>
+                <Trigger Property="Text" Value="">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <VisualBrush>
+                                <VisualBrush.Visual>
+                                    <TextBlock
+                                        Text="{Binding RelativeSource={RelativeSource AncestorType=TextBox}, Path=Tag}"
+                                        Foreground="Gray"
+                                        VerticalAlignment="Center"
+                                        Padding="5" />
+                                </VisualBrush.Visual>
+                            </VisualBrush>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
     <Grid Margin="20" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -38,16 +59,23 @@
             Source="/Resources/Logo1.png" />
 
         <!--  Список товаров  -->
-        <ScrollViewer Grid.Row="1" Margin="0,10" HorizontalScrollBarVisibility="Auto">
+        <ScrollViewer
+            Grid.Row="1"
+            Margin="0,10"
+            HorizontalScrollBarVisibility="Auto">
             <ListView ItemsSource="{Binding Products}" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
-                        <StackPanel Orientation="Horizontal"/>
+                        <StackPanel Orientation="Horizontal" />
                     </ItemsPanelTemplate>
                 </ListView.ItemsPanel>
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <Border Margin="0,10,10,0" BorderBrush="#E0E0E0" BorderThickness="1" CornerRadius="5">
+                        <Border
+                            Margin="0,10,10,0"
+                            BorderBrush="#E0E0E0"
+                            BorderThickness="1"
+                            CornerRadius="5">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="Auto" />
@@ -93,7 +121,7 @@
             </ListView>
         </ScrollViewer>
 
-        <!--  Раздел личных данных  -->
+        <!-- Раздел личных данных -->
         <Border
             Grid.Row="2"
             Margin="0,10"
@@ -108,34 +136,44 @@
                     FontWeight="Bold"
                     Text="Личные данные" />
                 <TextBox
+                    Style="{StaticResource WatermarkTextBoxStyle}"
+                    Tag="ФИО"
                     Margin="0,0,0,10"
                     Padding="5"
                     Background="#FFE2E2E2"
-                    Text="ФИО" />
+                    Text="{Binding FullName}" />
                 <TextBox
+                    Style="{StaticResource WatermarkTextBoxStyle}"
+                    Tag="Адрес доставки"
                     Margin="0,0,0,10"
                     Padding="5"
                     Background="#FFE2E2E2"
-                    Text="Адрес доставки" />
+                    Text="{Binding ShippingAddress}" />
                 <TextBox
+                    Style="{StaticResource WatermarkTextBoxStyle}"
+                    Tag="Город"
                     Margin="0,0,0,10"
                     Padding="5"
                     Background="#FFE2E2E2"
-                    Text="Город" />
+                    Text="{Binding City}" />
                 <TextBox
+                    Style="{StaticResource WatermarkTextBoxStyle}"
+                    Tag="Телефон"
                     Margin="0,0,0,10"
                     Padding="5"
                     Background="#FFE2E2E2"
-                    Text="Телефон" />
+                    Text="{Binding PhoneNumber}" />
                 <TextBox
+                    Style="{StaticResource WatermarkTextBoxStyle}"
+                    Tag="Почтовый индекс"
                     Margin="0,0,0,10"
                     Padding="5"
                     Background="#FFE2E2E2"
-                    Text="Почтовый индекс" />
+                    Text="{Binding PostalCode}" />
             </StackPanel>
         </Border>
 
-        <!--  Раздел платежной информации  -->
+        <!-- Раздел платежной информации -->
         <Border
             Grid.Row="3"
             Margin="0,10"
@@ -150,36 +188,34 @@
                     FontWeight="Bold"
                     Text="Платежная информация" />
                 <TextBox
+                    Style="{StaticResource WatermarkTextBoxStyle}"
+                    Tag="Номер карты"
                     Margin="0,0,0,10"
                     Padding="5"
                     Background="#FFE2E2E2"
-                    Text="Номер карты">
-                    <TextBox.BorderBrush>
-                        <LinearGradientBrush MappingMode="Absolute" EndPoint="0,2">
-                            <LinearGradientBrush.RelativeTransform>
-                                <ScaleTransform CenterY="0.5" ScaleY="-1" />
-                            </LinearGradientBrush.RelativeTransform>
-                            <GradientStop Color="#72000000" />
-                            <GradientStop Offset="1" Color="#0F000000" />
-                        </LinearGradientBrush>
-                    </TextBox.BorderBrush>
-                </TextBox>
+                    Text="{Binding CardNumber}" />
                 <TextBox
+                    Style="{StaticResource WatermarkTextBoxStyle}"
+                    Tag="Имя владельца"
                     Margin="0,0,0,10"
                     Padding="5"
                     Background="#FFE2E2E2"
-                    Text="Имя владельца" />
+                    Text="{Binding CardHolderName}" />
                 <StackPanel Margin="0,0,0,10" Orientation="Horizontal">
                     <TextBox
+                        Style="{StaticResource WatermarkTextBoxStyle}"
+                        Tag="MM/ГГ"
                         Width="308"
                         Padding="5"
                         Background="#FFE2E2E2"
-                        Text="MM/ГГ" />
+                        Text="{Binding CardExpiry}" />
                     <TextBox
+                        Style="{StaticResource WatermarkTextBoxStyle}"
+                        Tag="CVV"
                         Width="338"
                         Padding="5"
                         Background="#FFE2E2E2"
-                        Text="CVV" />
+                        Text="{Binding CardCVV}" />
                 </StackPanel>
             </StackPanel>
         </Border>

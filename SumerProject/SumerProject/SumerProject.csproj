@@ -85,6 +85,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model3.edmx</DependentUpon>
     </Compile>
+    <Compile Include="DataBase\OrderItems.cs">
+      <DependentUpon>Model3.tt</DependentUpon>
+    </Compile>
     <Compile Include="DataBase\Orders.cs">
       <DependentUpon>Model3.tt</DependentUpon>
     </Compile>
@@ -311,6 +314,15 @@
     <PackageReference Include="EntityFramework.ru">
       <Version>6.2.0</Version>
     </PackageReference>
+    <PackageReference Include="MaterialDesignColors">
+      <Version>3.1.0-ci644</Version>
+    </PackageReference>
+    <PackageReference Include="MaterialDesignThemes">
+      <Version>5.0.1-ci644</Version>
+    </PackageReference>
+    <PackageReference Include="MaterialDesignThemes.Wpf">
+      <Version>1.0.1</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.Windows.SDK.Contracts">
       <Version>10.0.26031-preview</Version>
     </PackageReference>
@@ -340,6 +352,15 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\Mizuno.jpg" />
+    <Resource Include="Resources\Paura.jpg" />
+    <Resource Include="Resources\Goldwin.jpg" />
+    <Resource Include="Resources\C.9.3Photo.jpg" />
+    <Resource Include="Resources\UnkownUser.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="DataBase\Model3.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model3.edmx</DependentUpon>
@@ -350,13 +371,6 @@
       <DependentUpon>Model3.edmx</DependentUpon>
       <LastGenOutput>Model3.cs</LastGenOutput>
     </Content>
-    <Resource Include="Resources\Mizuno.jpg" />
-    <Resource Include="Resources\Paura.jpg" />
-    <Resource Include="Resources\Goldwin.jpg" />
-    <Resource Include="Resources\C.9.3Photo.jpg" />
-    <Resource Include="Resources\UnkownUser.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

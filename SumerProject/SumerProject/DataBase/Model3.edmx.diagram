@@ -4,15 +4,16 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="669e949271104f7e9544a67e3bed7534" Name="Diagram1">
-        <EntityTypeShape EntityType="TestModel.Orders" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="TestModel.product" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+      <Diagram DiagramId="048b21abdde74bcfbb7a0a76167b8e60" Name="Diagram1">
+        <EntityTypeShape EntityType="TestModel.OrderItems" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestModel.Orders" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestModel.product" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
         <EntityTypeShape EntityType="TestModel.Sizes" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
         <EntityTypeShape EntityType="TestModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="TestModel.users" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
-        <AssociationConnector Association="TestModel.FK__Orders__ID_Produ__6A30C649" ManuallyRouted="false" />
-        <AssociationConnector Association="TestModel.FK__Orders__ID_Size__6B24EA82" ManuallyRouted="false" />
-        <AssociationConnector Association="TestModel.FK__Orders__ID_User__6C190EBB" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TestModel.users" Width="1.5" PointX="1.5" PointY="11.375" IsExpanded="true" />
+        <AssociationConnector Association="TestModel.FK__OrderItem__Order__72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="TestModel.FK__OrderItem__Produ__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="TestModel.FK__Orders__UserID__6FE99F9F" ManuallyRouted="false" />
         <AssociationConnector Association="TestModel.FK__Sizes__ID_Produc__6754599E" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>

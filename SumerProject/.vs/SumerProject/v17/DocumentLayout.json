@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\sumerproject\\page\\cartmen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\cartmen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\090\\documents\\github\\project_c.sharp\\sumerproject\\sumerproject\\assets\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\assets\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\sumerproject\\page\\cartmen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\cartmen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\090\\documents\\github\\project_c.sharp\\sumerproject\\sumerproject\\page\\productmen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\productmen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\090\\documents\\github\\project_c.sharp\\sumerproject\\sumerproject\\page\\productmen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\productmen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\sumerproject\\page\\cartwomen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\cartwomen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\090\\documents\\github\\project_c.sharp\\sumerproject\\sumerproject\\page\\cartwomen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\cartwomen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\090\\documents\\github\\project_c.sharp\\sumerproject\\sumerproject\\page\\orderregistration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\orderregistration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\090\\documents\\github\\project_c.sharp\\sumerproject\\sumerproject\\page\\orderregistration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\orderregistration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\090\\documents\\github\\project_c.sharp\\sumerproject\\sumerproject\\page\\orderregistration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\page\\orderregistration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|c:\\users\\090\\documents\\github\\project_c.sharp\\sumerproject\\sumerproject\\assets\\globaluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A00F8F7-EB08-41BB-ADA2-06AE3528AD6D}|SumerProject\\SumerProject.csproj|solutionrelative:sumerproject\\assets\\globaluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 99,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,102 +34,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Page\\ProductMen.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\ProductMen.xaml.cs",
-              "RelativeDocumentMoniker": "SumerProject\\Page\\ProductMen.xaml.cs",
-              "ToolTip": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\ProductMen.xaml.cs",
-              "RelativeToolTip": "SumerProject\\Page\\ProductMen.xaml.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADkAAAAdAAAA",
+              "DocumentIndex": 0,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Assets\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "SumerProject\\Assets\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Assets\\OrderViewModel.cs*",
+              "RelativeToolTip": "SumerProject\\Assets\\OrderViewModel.cs*",
+              "ViewState": "AQIAACsAAAAAAAAAAAAmwDsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T20:26:28.172Z",
+              "WhenOpened": "2024-05-27T21:15:50.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductMen.xaml",
-              "DocumentMoniker": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\ProductMen.xaml",
-              "RelativeDocumentMoniker": "SumerProject\\Page\\ProductMen.xaml",
-              "ToolTip": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\ProductMen.xaml",
-              "RelativeToolTip": "SumerProject\\Page\\ProductMen.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-27T20:26:19.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartWomen.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\CartWomen.xaml.cs",
-              "RelativeDocumentMoniker": "SumerProject\\Page\\CartWomen.xaml.cs",
-              "ToolTip": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\CartWomen.xaml.cs",
-              "RelativeToolTip": "SumerProject\\Page\\CartWomen.xaml.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAmwEAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T19:24:05.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CartWomen.xaml",
-              "DocumentMoniker": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\CartWomen.xaml",
-              "RelativeDocumentMoniker": "SumerProject\\Page\\CartWomen.xaml",
-              "ToolTip": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\CartWomen.xaml",
-              "RelativeToolTip": "SumerProject\\Page\\CartWomen.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-25T19:24:00.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartMen.xaml",
-              "DocumentMoniker": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\CartMen.xaml",
-              "RelativeDocumentMoniker": "SumerProject\\Page\\CartMen.xaml",
-              "ToolTip": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\CartMen.xaml",
-              "RelativeToolTip": "SumerProject\\Page\\CartMen.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-25T17:34:58.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartMen.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\CartMen.xaml.cs",
-              "RelativeDocumentMoniker": "SumerProject\\Page\\CartMen.xaml.cs",
-              "ToolTip": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\CartMen.xaml.cs",
-              "RelativeToolTip": "SumerProject\\Page\\CartMen.xaml.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAwwDQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T17:35:19.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Page\\OrderRegistration.xaml.cs",
               "DocumentMoniker": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\OrderRegistration.xaml.cs",
               "RelativeDocumentMoniker": "SumerProject\\Page\\OrderRegistration.xaml.cs",
               "ToolTip": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\OrderRegistration.xaml.cs",
               "RelativeToolTip": "SumerProject\\Page\\OrderRegistration.xaml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAmwDAAAAAFAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAmwBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T20:30:45.198Z",
+              "WhenOpened": "2024-05-27T20:55:29.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "OrderRegistration.xaml",
               "DocumentMoniker": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\OrderRegistration.xaml",
               "RelativeDocumentMoniker": "SumerProject\\Page\\OrderRegistration.xaml",
-              "ToolTip": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\OrderRegistration.xaml",
-              "RelativeToolTip": "SumerProject\\Page\\OrderRegistration.xaml",
+              "ToolTip": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Page\\OrderRegistration.xaml*",
+              "RelativeToolTip": "SumerProject\\Page\\OrderRegistration.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-27T20:30:36.938Z",
+              "WhenOpened": "2024-05-27T20:44:35.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GlobalUser.cs",
+              "DocumentMoniker": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Assets\\GlobalUser.cs",
+              "RelativeDocumentMoniker": "SumerProject\\Assets\\GlobalUser.cs",
+              "ToolTip": "C:\\Users\\090\\Documents\\GitHub\\project_C.Sharp\\SumerProject\\SumerProject\\Assets\\GlobalUser.cs",
+              "RelativeToolTip": "SumerProject\\Assets\\GlobalUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T20:41:28.796Z",
               "EditorCaption": ""
             }
           ]

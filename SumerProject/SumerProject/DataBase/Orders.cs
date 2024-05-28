@@ -14,14 +14,27 @@ namespace SumerProject.DataBase
     
     public partial class Orders
     {
-        public int ID_Order { get; set; }
-        public Nullable<int> ID_Product { get; set; }
-        public Nullable<int> ID_Size { get; set; }
-        public Nullable<int> ID_User { get; set; }
-        public string Adress { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Orders()
+        {
+            this.OrderItems = new HashSet<OrderItems>();
+        }
     
-        public virtual product product { get; set; }
-        public virtual Sizes Sizes { get; set; }
+        public int OrderID { get; set; }
+        public int UserID { get; set; }
+        public System.DateTime OrderDate { get; set; }
+        public decimal TotalAmount { get; set; }
+        public string ShippingAddress { get; set; }
+        public string City { get; set; }
+        public string PhoneNumber { get; set; }
+        public string PostalCode { get; set; }
+        public string CardNumber { get; set; }
+        public string CardHolderName { get; set; }
+        public string CardExpiry { get; set; }
+        public string CardCVV { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<OrderItems> OrderItems { get; set; }
         public virtual users users { get; set; }
     }
 }

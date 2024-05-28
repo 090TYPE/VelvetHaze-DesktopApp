@@ -1,14 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="Хранилище TestModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="OrderItems">
+    <Key>
+      <PropertyRef Name="OrderItemID" />
+    </Key>
+    <Property Name="OrderItemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderID" Type="int" Nullable="false" />
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="Size" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
   <EntityType Name="Orders">
     <Key>
-      <PropertyRef Name="ID_Order" />
+      <PropertyRef Name="OrderID" />
     </Key>
-    <Property Name="ID_Order" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="ID_Product" Type="int" />
-    <Property Name="ID_Size" Type="int" />
-    <Property Name="ID_User" Type="int" />
-    <Property Name="Adress" Type="varchar(max)" />
+    <Property Name="OrderID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="OrderDate" Type="datetime" Nullable="false" />
+    <Property Name="TotalAmount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="ShippingAddress" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="City" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PostalCode" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CardNumber" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="CardHolderName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CardExpiry" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CardCVV" Type="varchar" MaxLength="3" Nullable="false" />
   </EntityType>
   <EntityType Name="product">
     <Key>
@@ -53,39 +71,39 @@
     <Property Name="PasswordUser" Type="varchar" MaxLength="50" />
     <Property Name="ImageRes" Type="image" />
   </EntityType>
-  <Association Name="FK__Orders__ID_Produ__6A30C649">
-    <End Role="product" Type="Self.product" Multiplicity="0..1" />
-    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+  <Association Name="FK__OrderItem__Order__72C60C4A">
+    <End Role="Orders" Type="Self.Orders" Multiplicity="1" />
+    <End Role="OrderItems" Type="Self.OrderItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="OrderID" />
+      </Principal>
+      <Dependent Role="OrderItems">
+        <PropertyRef Name="OrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OrderItem__Produ__73BA3083">
+    <End Role="product" Type="Self.product" Multiplicity="1" />
+    <End Role="OrderItems" Type="Self.OrderItems" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="product">
         <PropertyRef Name="ID_Product" />
       </Principal>
-      <Dependent Role="Orders">
-        <PropertyRef Name="ID_Product" />
+      <Dependent Role="OrderItems">
+        <PropertyRef Name="ProductID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Orders__ID_Size__6B24EA82">
-    <End Role="Sizes" Type="Self.Sizes" Multiplicity="0..1" />
-    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Sizes">
-        <PropertyRef Name="ID_Size" />
-      </Principal>
-      <Dependent Role="Orders">
-        <PropertyRef Name="ID_Size" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK__Orders__ID_User__6C190EBB">
-    <End Role="users" Type="Self.users" Multiplicity="0..1" />
+  <Association Name="FK__Orders__UserID__6FE99F9F">
+    <End Role="users" Type="Self.users" Multiplicity="1" />
     <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="users">
         <PropertyRef Name="ID_User" />
       </Principal>
       <Dependent Role="Orders">
-        <PropertyRef Name="ID_User" />
+        <PropertyRef Name="UserID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
@@ -102,20 +120,21 @@
     </ReferentialConstraint>
   </Association>
   <EntityContainer Name="Хранилище TestModelContainer">
+    <EntitySet Name="OrderItems" EntityType="Self.OrderItems" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="product" EntityType="Self.product" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Sizes" EntityType="Self.Sizes" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK__Orders__ID_Produ__6A30C649" Association="Self.FK__Orders__ID_Produ__6A30C649">
+    <AssociationSet Name="FK__OrderItem__Order__72C60C4A" Association="Self.FK__OrderItem__Order__72C60C4A">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="OrderItems" EntitySet="OrderItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OrderItem__Produ__73BA3083" Association="Self.FK__OrderItem__Produ__73BA3083">
       <End Role="product" EntitySet="product" />
-      <End Role="Orders" EntitySet="Orders" />
+      <End Role="OrderItems" EntitySet="OrderItems" />
     </AssociationSet>
-    <AssociationSet Name="FK__Orders__ID_Size__6B24EA82" Association="Self.FK__Orders__ID_Size__6B24EA82">
-      <End Role="Sizes" EntitySet="Sizes" />
-      <End Role="Orders" EntitySet="Orders" />
-    </AssociationSet>
-    <AssociationSet Name="FK__Orders__ID_User__6C190EBB" Association="Self.FK__Orders__ID_User__6C190EBB">
+    <AssociationSet Name="FK__Orders__UserID__6FE99F9F" Association="Self.FK__Orders__UserID__6FE99F9F">
       <End Role="users" EntitySet="users" />
       <End Role="Orders" EntitySet="Orders" />
     </AssociationSet>

@@ -889,3 +889,9 @@ C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\VelvetHaze-
 C:\Users\rabbi\OneDrive\Рабочий стол\project_C.Sharp-main\VelvetHaze-DesktopApp-main\SumerProject\SumerProject\obj\Debug\Page\OrderRegistration.g.cs
 C:\Users\090\Documents\GitHub\project_C.Sharp\SumerProject\SumerProject\obj\Debug\Page\OrderRegistration.baml
 C:\Users\090\Documents\GitHub\project_C.Sharp\SumerProject\SumerProject\obj\Debug\Page\OrderRegistration.g.cs
+C:\Users\090\Documents\GitHub\project_C.Sharp\SumerProject\SumerProject\bin\Debug\MaterialDesignColors.dll
+C:\Users\090\Documents\GitHub\project_C.Sharp\SumerProject\SumerProject\bin\Debug\MaterialDesignColors.pdb
+C:\Users\090\Documents\GitHub\project_C.Sharp\SumerProject\SumerProject\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\090\Documents\GitHub\project_C.Sharp\SumerProject\SumerProject\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\090\Documents\GitHub\project_C.Sharp\SumerProject\SumerProject\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\090\Documents\GitHub\project_C.Sharp\SumerProject\SumerProject\bin\Debug\Microsoft.Xaml.Behaviors.pdb

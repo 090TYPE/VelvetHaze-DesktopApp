@@ -25,6 +25,7 @@ namespace SumerProject.DataBase
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<OrderItems> OrderItems { get; set; }
         public virtual DbSet<Orders> Orders { get; set; }
         public virtual DbSet<product> product { get; set; }
         public virtual DbSet<Sizes> Sizes { get; set; }
