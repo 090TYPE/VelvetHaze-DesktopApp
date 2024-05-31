@@ -74,6 +74,7 @@ namespace SumerProject.Page
             // Создание объекта CartProduct
             var cartProduct = new CartProduct
             {
+                ID_Product = selectedProduct.ID_Product,
                 NameProduct = selectedProduct.NameProduct,
                 Coast = (int)selectedProduct.Coast,
                 SelectedSize = selectedProduct.SelectedSize,

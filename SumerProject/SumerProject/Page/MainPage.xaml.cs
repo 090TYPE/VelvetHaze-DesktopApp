@@ -42,16 +42,30 @@ namespace SumerProject.Page
 
         private void Muzh_Click(object sender, RoutedEventArgs e)
         {
-            MenСlothing menСlothing = new MenСlothing();
-            menСlothing.Show();
-            this.Visibility = Visibility.Collapsed;
+            if (GlobalUser.ID_User != 0)
+            {
+                MenСlothing menСlothing = new MenСlothing();
+                menСlothing.Show();
+                this.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                MessageBox.Show("Перед входом на эту форму рекомендуется авторизироваться");
+            }
         }
 
         private void Zhen_Click(object sender, RoutedEventArgs e)
         {
-            WomenClothing womenClothing = new WomenClothing();
-            womenClothing.Show();
-            this.Visibility = Visibility.Collapsed;
+            if (GlobalUser.ID_User != 0)
+            {
+                WomenClothing womenClothing = new WomenClothing();
+                womenClothing.Show();
+                this.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                MessageBox.Show("Перед входом на эту форму рекомендуется авторизироваться");
+            }
         }
     }
 }

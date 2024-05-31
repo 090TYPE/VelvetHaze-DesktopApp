@@ -3,7 +3,11 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:easy="clr-namespace:EasyCaptcha.Wpf;assembly=EasyCaptcha.Wpf"
+    xmlns:local="clr-namespace:SumerProject.Page"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:modern="http://schemas.modernwpf.com/2019"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
     Title="OrderRegistration"
     Width="1250"
     Height="856"
@@ -11,27 +15,7 @@
     ResizeMode="NoResize"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
-    <Window.Resources>
-        <Style x:Key="WatermarkTextBoxStyle" TargetType="TextBox">
-            <Style.Triggers>
-                <Trigger Property="Text" Value="">
-                    <Setter Property="Background">
-                        <Setter.Value>
-                            <VisualBrush>
-                                <VisualBrush.Visual>
-                                    <TextBlock
-                                        Text="{Binding RelativeSource={RelativeSource AncestorType=TextBox}, Path=Tag}"
-                                        Foreground="Gray"
-                                        VerticalAlignment="Center"
-                                        Padding="5" />
-                                </VisualBrush.Visual>
-                            </VisualBrush>
-                        </Setter.Value>
-                    </Setter>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-    </Window.Resources>
+
     <Grid Margin="20" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -121,7 +105,7 @@
             </ListView>
         </ScrollViewer>
 
-        <!-- Раздел личных данных -->
+        <!--  Раздел личных данных  -->
         <Border
             Grid.Row="2"
             Margin="0,10"
@@ -135,45 +119,45 @@
                     FontSize="18"
                     FontWeight="Bold"
                     Text="Личные данные" />
-                <TextBox
-                    Style="{StaticResource WatermarkTextBoxStyle}"
+                <ui:TextBox
+                    Margin="0,0,0,10"
+                    Padding="5"
+                    Background="#FFE2E2E2"
+                    PlaceholderText="ФИО"
                     Tag="ФИО"
-                    Margin="0,0,0,10"
-                    Padding="5"
-                    Background="#FFE2E2E2"
                     Text="{Binding FullName}" />
-                <TextBox
-                    Style="{StaticResource WatermarkTextBoxStyle}"
+                <ui:TextBox
+                    Margin="0,0,0,10"
+                    Padding="5"
+                    Background="#FFE2E2E2"
+                    PlaceholderText="Адрес"
                     Tag="Адрес доставки"
-                    Margin="0,0,0,10"
-                    Padding="5"
-                    Background="#FFE2E2E2"
                     Text="{Binding ShippingAddress}" />
-                <TextBox
-                    Style="{StaticResource WatermarkTextBoxStyle}"
+                <ui:TextBox
+                    Margin="0,0,0,10"
+                    Padding="5"
+                    Background="#FFE2E2E2"
+                    PlaceholderText="Город"
                     Tag="Город"
-                    Margin="0,0,0,10"
-                    Padding="5"
-                    Background="#FFE2E2E2"
                     Text="{Binding City}" />
-                <TextBox
-                    Style="{StaticResource WatermarkTextBoxStyle}"
+                <ui:TextBox
+                    Margin="0,0,0,10"
+                    Padding="5"
+                    Background="#FFE2E2E2"
+                    PlaceholderText="Номер телефона"
                     Tag="Телефон"
-                    Margin="0,0,0,10"
-                    Padding="5"
-                    Background="#FFE2E2E2"
                     Text="{Binding PhoneNumber}" />
-                <TextBox
-                    Style="{StaticResource WatermarkTextBoxStyle}"
-                    Tag="Почтовый индекс"
+                <ui:TextBox
                     Margin="0,0,0,10"
                     Padding="5"
                     Background="#FFE2E2E2"
+                    PlaceholderText="Почтовый индекс"
+                    Tag="Почтовый индекс"
                     Text="{Binding PostalCode}" />
             </StackPanel>
         </Border>
 
-        <!-- Раздел платежной информации -->
+        <!--  Раздел платежной информации  -->
         <Border
             Grid.Row="3"
             Margin="0,10"
@@ -187,34 +171,34 @@
                     FontSize="18"
                     FontWeight="Bold"
                     Text="Платежная информация" />
-                <TextBox
-                    Style="{StaticResource WatermarkTextBoxStyle}"
+                <ui:TextBox
+                    Margin="0,0,0,10"
+                    Padding="5"
+                    Background="#FFE2E2E2"
+                    PlaceholderText="Номер карты"
                     Tag="Номер карты"
-                    Margin="0,0,0,10"
-                    Padding="5"
-                    Background="#FFE2E2E2"
                     Text="{Binding CardNumber}" />
-                <TextBox
-                    Style="{StaticResource WatermarkTextBoxStyle}"
-                    Tag="Имя владельца"
+                <ui:TextBox
                     Margin="0,0,0,10"
                     Padding="5"
                     Background="#FFE2E2E2"
+                    PlaceholderText="Имя владельца"
+                    Tag="Имя владельца"
                     Text="{Binding CardHolderName}" />
                 <StackPanel Margin="0,0,0,10" Orientation="Horizontal">
-                    <TextBox
-                        Style="{StaticResource WatermarkTextBoxStyle}"
-                        Tag="MM/ГГ"
+                    <ui:TextBox
                         Width="308"
                         Padding="5"
                         Background="#FFE2E2E2"
+                        PlaceholderText="ММ/ГГ"
+                        Tag="MM/ГГ"
                         Text="{Binding CardExpiry}" />
-                    <TextBox
-                        Style="{StaticResource WatermarkTextBoxStyle}"
-                        Tag="CVV"
+                    <ui:TextBox
                         Width="338"
                         Padding="5"
                         Background="#FFE2E2E2"
+                        PlaceholderText="CVV"
+                        Tag="CVV"
                         Text="{Binding CardCVV}" />
                 </StackPanel>
             </StackPanel>
@@ -231,7 +215,7 @@
             Background="#F8F32B"
             BorderBrush="Black"
             BorderThickness="2"
-            Command="{Binding PlaceOrderCommand}"
+            Click="Order_Click"
             Content="Оформить заказ"
             FontSize="16"
             FontWeight="Bold" />
