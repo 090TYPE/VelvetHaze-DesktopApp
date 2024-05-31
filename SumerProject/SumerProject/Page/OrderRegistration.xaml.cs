@@ -45,7 +45,7 @@ namespace SumerProject.Page
                     {
                         var order = new Orders
                         {
-                            UserID = 1, // Пример пользователя
+                            UserID = GlobalUser.ID_User, // Пример пользователя
                             OrderDate = DateTime.Now,
                             TotalAmount = Products.Sum(p => p.Coast), // Пример подсчета общей суммы
                             ShippingAddress = this.ShippingAddress,

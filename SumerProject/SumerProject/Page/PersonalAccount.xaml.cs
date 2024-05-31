@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SumerProject.Assets;
+using SumerProject.DataBase;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -31,6 +33,7 @@ namespace SumerProject.Page
         public PersonalAccount(string firstName, string lastName, string phoneNumber, int ID_User, byte[] ImageRes)
         {
             InitializeComponent();
+            LoadOrders(ID_User);
             this.firstName = firstName;
             this.lastName = lastName;
             this.phoneNumber = phoneNumber;
@@ -60,7 +63,35 @@ namespace SumerProject.Page
             mainPage.Show();
         }
 
+        private void LoadOrders(int UserId)
+        {
+            try
+            {
+                using (var context = new TestEntities5())
+                {
+                    int userId = UserId;
 
+                    var orders = context.Orders
+                        .Where(o => o.UserID == userId)
+                        .Select(o => new
+                        {
+                            o.OrderID,
+                            o.OrderDate,
+                            o.TotalAmount,
+                            o.ShippingAddress,
+                            o.City,
+                            o.PhoneNumber,
+                            o.PostalCode
+                        }).ToList();
+
+                    OrdersListView.ItemsSource = orders;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка при загрузке заказов: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
         private BitmapImage ByteArrayToBitmapImage(byte[] imageData)
         {
             if (imageData == null || imageData.Length == 0) return null;

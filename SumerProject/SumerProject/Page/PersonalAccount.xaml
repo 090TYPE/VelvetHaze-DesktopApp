@@ -112,50 +112,27 @@
                 Foreground="#1F1F1F"
                 Text="Заказы" />
 
-            <ListBox
-                Grid.RowSpan="2"
-                Grid.Column="0"
-                Grid.ColumnSpan="2"
-                Margin="12,43,12,46"
-                Padding="10"
-                Background="#F8F32B"
-                BorderBrush="#1F1F1F"
-                Foreground="Black">
-
-                <ListBoxItem>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition />
-                            <ColumnDefinition />
-                        </Grid.ColumnDefinitions>
-
-                        <TextBlock
-                            Grid.Column="0"
-                            VerticalAlignment="Center"
-                            Text="Заказ #56609 от " />
-
-                        <TextBlock
-                            Grid.Column="1"
-                            HorizontalAlignment="Right"
-                            VerticalAlignment="Center"
-                            FontSize="12"
-                            Text="20.02.2023" />
-
-                    </Grid>
-                </ListBoxItem>
-
-                <!--  Добавьте здесь другие заказы  -->
-
-            </ListBox>
-
-            <TextBlock
-                Grid.Row="2"
-                Grid.ColumnSpan="2"
-                Margin="14,143,-14,89"
-                FontSize="24"
-                FontWeight="Bold"
-                Foreground="#1F1F1F"
-                Text="Информация о пользователе:" />
+            <ListView x:Name="OrdersListView"
+          Grid.RowSpan="2"
+          Grid.Column="0"
+          Grid.ColumnSpan="2"
+          Margin="12,43,12,46"
+          Padding="10"
+          Background="#F8F32B"
+          BorderBrush="#1F1F1F"
+          Foreground="Black">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Заказ #" DisplayMemberBinding="{Binding OrderID}" Width="150"/>
+                        <GridViewColumn Header="Дата" DisplayMemberBinding="{Binding OrderDate}" Width="200"/>
+                        <GridViewColumn Header="Сумма" DisplayMemberBinding="{Binding TotalAmount}" Width="150"/>
+                        <GridViewColumn Header="Адрес" DisplayMemberBinding="{Binding ShippingAddress}" Width="250"/>
+                        <GridViewColumn Header="Город" DisplayMemberBinding="{Binding City}" Width="150"/>
+                        <GridViewColumn Header="Телефон" DisplayMemberBinding="{Binding PhoneNumber}" Width="150"/>
+                        <GridViewColumn Header="Почтовый индекс" DisplayMemberBinding="{Binding PostalCode}" Width="150"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
 
             <StackPanel
                 Grid.Row="2"
@@ -164,61 +141,6 @@
                 Margin="0,175,197,66"
                 Background="Transparent"
                 Orientation="Vertical" />
-            <ListBox
-                Grid.Row="2"
-                Grid.Column="0"
-                Grid.ColumnSpan="2"
-                Margin="12,24,12,194"
-                Padding="10"
-                Background="#F8F32B"
-                BorderBrush="#1F1F1F"
-                Foreground="White">
-
-                <ListBoxItem Height="8">
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition />
-                            <ColumnDefinition />
-                        </Grid.ColumnDefinitions>
-                    </Grid>
-                </ListBoxItem>
-
-                <!--  Добавьте здесь другие заказы  -->
-
-            </ListBox>
-            <ListBox
-                Grid.Row="1"
-                Grid.RowSpan="2"
-                Grid.Column="0"
-                Grid.ColumnSpan="2"
-                Margin="12,9,12,259"
-                Padding="10"
-                Background="#F8F32B"
-                BorderBrush="#1F1F1F"
-                Foreground="Black"
-                RenderTransformOrigin="0.501,0.989">
-
-                <ListBoxItem Height="48">
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition />
-                            <ColumnDefinition />
-                        </Grid.ColumnDefinitions>
-                    </Grid>
-                </ListBoxItem>
-
-                <!--  другие заказы  -->
-
-            </ListBox>
-            <TextBlock
-                Grid.Row="2"
-                Grid.ColumnSpan="2"
-                Margin="14,195,192,47"
-                FontSize="16"
-                FontWeight="Bold"
-                Foreground="#1F1F1F"
-                RenderTransformOrigin="0.498,0.483"
-                Text="Адрес: г. Москва, ул. Ленина, д. 1" />
 
         </Grid>
 
