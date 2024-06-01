@@ -9,7 +9,7 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Title="Главная страница"
-        Height="675" Width="1200">
+        Height="675" Width="1200" ResizeMode="NoResize">
     <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
         <ScrollViewer VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
             <Grid Margin="0,0,0,5" Height="2790">

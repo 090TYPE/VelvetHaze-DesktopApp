@@ -11,7 +11,7 @@
         WindowStartupLocation="CenterScreen"
         MinHeight="360"
         MinWidth="300"
-        Title="Авторизация" Height="470" Width="370">
+        Title="Авторизация" Height="470" Width="370" ResizeMode="NoResize">
     <Grid>
         <modern:SimpleStackPanel VerticalAlignment="Top" Spacing="30" Margin="20,144,20,0" Height="270">
             <ui:TextBox BorderBrush="#1F1F1F" PlaceholderText="Введите логин" FontSize="16" Name="LoginTextBox"/>

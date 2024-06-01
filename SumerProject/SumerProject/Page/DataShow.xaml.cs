@@ -30,10 +30,12 @@ namespace SumerProject.Page
             db.product.Load();
             db.Orders.Load();
             db.Sizes.Load();
+            db.OrderItems.Load();
             DataGrid1.ItemsSource = db.users.Local;
             DataGrid2.ItemsSource = db.product.Local;
             DataGrid3.ItemsSource = db.Sizes.Local;
             DataGrid4.ItemsSource = db.Orders.Local;
+            DataGrid5.ItemsSource = db.OrderItems.Local;
         }
         private void Save_Click(object sender, RoutedEventArgs e)
         {

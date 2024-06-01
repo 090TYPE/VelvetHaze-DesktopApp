@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:SumerProject.Page"
         xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" x:Class="SumerProject.Page.ProductMen"
         mc:Ignorable="d"
-        Title="Product" Height="432" Width="800">
+        Title="Product" Height="432" Width="800" ResizeMode="NoResize">
     <Grid Margin="20">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="250"/>
@@ -20,23 +20,23 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <ui:Image Grid.Column="0" Grid.Row="0" Grid.RowSpan="5" Margin="1,4,521,27" x:Name="ImageControl" Source="{Binding ImageRes}" Stretch="Uniform" Grid.ColumnSpan="2"/>
-        <StackPanel Grid.Column="1" Grid.Row="0" Margin="21,40,-1,32" Grid.RowSpan="2">
+        <StackPanel Grid.Column="1" Grid.Row="0" Margin="21,10,-1,32" Grid.RowSpan="2">
             <TextBlock x:Name="Name" FontSize="24" FontWeight="Bold" Text="{Binding NameProduct}" TextWrapping="Wrap"/>
             <TextBlock Margin="0,10,0,0" x:Name="Name2" FontSize="12" Text="{Binding Coast, StringFormat='{}{0} ₽'}" FontWeight="Bold"/>
         </StackPanel>
-        <StackPanel Grid.Column="1" Grid.Row="1" Margin="21,40,-1,41" Grid.RowSpan="2">
+        <StackPanel Grid.Column="1" Grid.Row="1" Margin="21,20,-1,41" Grid.RowSpan="2">
             <TextBlock Text="Цвет:" FontSize="12"  FontWeight="Bold" Height="28"/>
             <TextBlock x:Name="Name3" FontSize="12" Text="{Binding Color}" TextWrapping="Wrap"/>
         </StackPanel>
-        <StackPanel Grid.Column="1" Grid.Row="2" Margin="21,40,-1,53" Grid.RowSpan="2">
+        <StackPanel Grid.Column="1" Grid.Row="2" Margin="21,20,-1,53" Grid.RowSpan="2">
+            <TextBlock Text="Описание:" FontSize="12"  FontWeight="Bold" Grid.Column="1"  Grid.Row="2" Grid.RowSpan="2"/>
             <TextBlock x:Name="Opis" FontSize="19" TextWrapping="Wrap" Text="{Binding DescriptionProduct}"/>
         </StackPanel>
         <StackPanel Grid.Column="1" Grid.Row="3" Margin="21,40,-1,32" Grid.RowSpan="2">
             <TextBlock Text="Размер:" FontSize="12"  FontWeight="Bold"/>
             <ComboBox x:Name="SizeSelector" Margin="0,5,0,0" DisplayMemberPath="Size" SelectedValuePath="ID_Size"/>
         </StackPanel>
-        <ui:Button Grid.Column="1" Grid.Row="4" Content="Добавить в корзину" Margin="20,0,0,0" Width="220" Click="AddCart_Click" Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Height="32"/>
-        <Image Source="/Resources/Logo1.png" Grid.Column="1" Margin="375,20,-8,-28" Grid.Row="4"/>
-        <TextBlock Text="Описание:" FontSize="12"  FontWeight="Bold" Grid.Column="1" Margin="21,13,-1,42" Grid.Row="2" Grid.RowSpan="2"/>
+        <ui:Button Grid.Column="1" Grid.Row="4" Content="Добавить в корзину" Margin="20,15,0,0" Width="220" Click="AddCart_Click" Background="#F8F32B" BorderBrush="Black" FontWeight="Bold" Height="32"/>
+        <Image Source="/Resources/Logo1.png" Grid.Column="1" Margin="375,-40,-8,-28" Grid.Row="4"/>
     </Grid>
 </Window>

@@ -7,7 +7,7 @@
     xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" 
     x:Class="SumerProject.Page.DataShow"
     mc:Ignorable="d"
-    Title="DataShow" Height="460" Width="800">
+    Title="DataShow" Height="460" Width="1262" ResizeMode="NoResize">
 
     
 
@@ -19,13 +19,14 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <DataGrid x:Name="DataGrid1" Grid.Column="0" Grid.Row="0" AutoGenerateColumns="True" />
         <DataGrid x:Name="DataGrid2" Grid.Column="1" Grid.Row="0" AutoGenerateColumns="True"/>
         <DataGrid x:Name="DataGrid3" Grid.Column="0" Grid.Row="1" AutoGenerateColumns="True" />
         <DataGrid x:Name="DataGrid4" Grid.Column="1" Grid.Row="1" AutoGenerateColumns="True"/>
+        <DataGrid x:Name="DataGrid5" Grid.Column="0" Grid.Row="2" AutoGenerateColumns="True"/>
 
         <ui:Button Content="Save" Grid.ColumnSpan="2" Grid.Row="2" Click="Save_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
     </Grid>

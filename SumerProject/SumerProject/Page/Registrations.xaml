@@ -13,7 +13,7 @@
         MinWidth="300"
         Title="Регистрация" 
         Height="744" 
-        Width="370">
+        Width="370" ResizeMode="NoResize">
     <Grid Margin="0,39,4,-3">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="101*"/>
